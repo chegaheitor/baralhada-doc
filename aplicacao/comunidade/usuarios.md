@@ -1,123 +1,96 @@
 # Usuarios
 
-## Visão Geral
+## 👤 O que é o Gerenciamento de Usuários
 
-A página de Usuários mostra todos os viewers que já interagiram com o bot. Os dados são sincronizados com o Twitch (foto de perfil, username).
-
-## Lista de Usuários
-
-Cada linha mostra:
-
-* **Foto e Username** do Twitch
-* **Pontos** atuais
-* **Nível** (baseado em XP acumulado)
-* **Status:** Ativo ou Bloqueado
-* **Ações:** Editar pontos, ver inventário, bloquear
-
-## Editar Pontos
+A página de Usuários mostra todos os viewers que já interagiram com o bot. O sistema permite que você visualize o progresso de cada viewer, ajuste seus pontos, cartas e pacotes manualmente, ou aplique bloqueios em casos de abuso do sistema.
 
 {% stepper %}
 {% step %}
-### Editar pontos
+### Vá em Painel → Usuários
 
-* Clique no ícone de edição (🖊️) ao lado do usuário
+Acesse a lista completa de todos que já interagiram com o bot na sua live.
 {% endstep %}
 
 {% step %}
-### Digitar novo valor
+### Busque o Usuário
 
-* Digite o novo valor de pontos
+Utilize a barra de pesquisa para encontrar o viewer pelo nome de usuário da Twitch.
 {% endstep %}
 
 {% step %}
-### Salvar
+### Gerenciar Ações
 
-* Clique em Salvar
+Ao selecionar um usuário, você pode abrir o formulário de edição:
+
+<table><thead><tr><th width="150">Ação</th><th>Descrição</th></tr></thead><tbody><tr><td><strong>Editar Saldo</strong></td><td>Adicionar ou remover pontos diretamente da carteira do usuário.</td></tr><tr><td><strong>Editar Nível/XP</strong></td><td>Adicionar ou remover níveis/xp diretamente pro painel do usuário.</td></tr><tr><td><strong>Ver Inventário</strong></td><td>Visualizar todas as cartas e pacotes que o usuário possui em sua mochila.</td></tr><tr><td><strong>Ver Álbum</strong></td><td>Visualizar os álbuns do usuario e ver sua coleção de cartas.</td></tr><tr><td><strong>Ver Conquistas/Missões</strong></td><td>Visualizar todas as conquistas desbloqueadas e progresso de missões do usuário.</td></tr><tr><td><strong>Dar Item</strong></td><td>Enviar uma carta ou pacote específico para o usuário.</td></tr><tr><td><strong>Banir/Bloquear</strong></td><td>Impedir que o usuário use qualquer comando do bot.</td></tr><tr><td><strong>Limpar Progresso</strong></td><td>Limpar todo o histórico, nível e inventário (irreversível).</td></tr></tbody></table>
 {% endstep %}
 {% endstepper %}
 
-## Bloquear / Desbloquear
+## 💰 Editar Saldo (Pontos)
 
-{% stepper %}
-{% step %}
-### Bloquear usuário
+Permite ajustes finos na economia do usuário. É possivel adicionar ou remover pontos.&#x20;
 
-* Clique no ícone de escudo ao lado do usuário
-{% endstep %}
-
-{% step %}
-### Confirmar
-
-* Confirme a ação
-{% endstep %}
-
-{% step %}
-### Desbloquear
-
-* Para desbloquear, clique novamente no mesmo ícone
-{% endstep %}
-{% endstepper %}
+* **Impacto**: Útil para premiar vencedores de gincanas ou corrigir erros após uma falha de sistema.
+* **Dica**: Evite dar muitos pontos manualmente para não desvalorizar o esforço dos outros jogadores.
 
 {% hint style="warning" %}
-Usuários bloqueados não podem usar nenhum comando do bot.
+A carteira nunca fica negativa, o menor valor de pontos é 0
 {% endhint %}
 
-## Gerenciar Inventário
+## 📈 Editar Nível e XP
 
-Clique no ícone de inventário (🎒) para abrir o painel de inventário do usuário.
+Permite ajustar manualmente o progresso de experiência e o nível do usuário.
 
-### Ver Cartas
+* **Impacto**: Útil para restaurar o progresso de veteranos ou recompensar viewers por contribuições especiais fora da live.
+* **Dica**: Lembre-se que o nível muitas vezes desbloqueia permissões ou multiplicadores automáticos no sistema.
 
-Lista todas as cartas com imagem, nome e raridade com código de cor.
+## 🎒 Ver Inventário
 
-### Ver Pacotes
+O inventário mostra todas as cartas e pacotes que aquele usuário possui.
 
-Lista todos os pacotes com imagem, nome e quantidade.
+* **Visualização**: O painel mostra as artes das cartas exatamente como aparecem no álbum do usuário.
 
-### Adicionar Item
+## 📖 Ver Álbum
 
-{% stepper %}
-{% step %}
-### Iniciar adição
+Uma visão organizada da coleção completa do usuário, separada por álbuns/pacotes.
 
-* Clique em **+ Adicionar Item**
-{% endstep %}
+* **Coleção**: Permite identificar rapidamente quais cartas faltam para completar uma coleção específica ou set de pacotes.
+* **Filtros**: Facilita a navegação pelo acervo do usuário, permitindo visualizar o progresso de conclusão de cada álbum separadamente.
 
-{% step %}
-### Escolher tipo
+## 🏆 Ver Conquistas e Missões
 
-* Escolha entre **Carta** ou **Pacote**
-{% endstep %}
+Acompanhe o engajamento do usuário através de seus marcos alcançados e objetivos atuais. É possivel ver as conquistas desbloqueadas por aquele usuário, e as missões que ele ja concluiu
 
-{% step %}
-### Pesquisar
+* **Histórico**: Veja a lista de conquistas desbloqueadas, permitindo entender o nível de fidelidade e os grandes feitos do viewer na live.
 
-* Pesquise o item pelo nome
-{% endstep %}
+## 🚫 Banir/Bloquear
 
-{% step %}
-### Selecionar
+A ferramenta definitiva de segurança. Utilize para moderar o programa de acordo com seu chat. Todo usuário bloqueado fica impossibilitado de interagir com o bot e outros usuários, como fazer trocas, receber pontos por mensagens, resgatar spawns e mais.&#x20;
 
-* Selecione o item na galeria visual
-{% endstep %}
+* **Impacto**: O usuário parado de ser monitorado pelo bot e seus comandos são ignorados no chat.
+* **Regra de Ouro**: Use apenas em casos de comportamento tóxico ou exploração de bugs (exploits).
 
-{% step %}
-### Quantidade
+<details>
 
-* Defina a quantidade
-{% endstep %}
+<summary><strong>🖼 Por que a foto de perfil do usuário não aparece?</strong></summary>
 
-{% step %}
-### Confirmar
+Isso ocorre porque o **Client ID** e o **Client Secret** precisam estar configurados corretamente nas definições do bot. O sistema utiliza a **API Helix** da Twitch para buscar metadados como fotos de perfil; apenas o Token OAuth não é suficiente para carregar essas informações.
 
-* Confirme
-{% endstep %}
-{% endstepper %}
+</details>
 
-### Remover Item
+<details>
 
-* Clique no ícone de lixeira ao lado de qualquer item para removê-lo do inventário.
+<summary>🚫 O banimento no painel também bane o usuário do chat da Twitch?</summary>
 
-## Pesquisa
+Não. O bloqueio no sistema apenas impede que o bot responda aos comandos do usuário e interrompe a coleta de pontos. Para banir do chat, você deve usar as ferramentas nativas da Twitch.
 
-Use a barra de pesquisa no topo da lista de usuários para filtrar por username.
+</details>
+
+<details>
+
+<summary>👤 O que acontece se o viewer mudar o nome de usuário (username) na Twitch?</summary>
+
+Nada é perdido. O sistema utiliza o ID único da Twitch para identificar cada conta. Assim que o usuário interagir com o bot novamente, o nome será atualizado automaticamente no seu painel sem afetar o progresso.
+
+</details>
+
