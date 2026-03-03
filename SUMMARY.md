@@ -1,13 +1,12 @@
 # Table of contents
 
-## 🃏 Baralhada
+## Baralhada
 
 * [👋 Introdução](README.md)
 * [📖 Como funciona](baralhada/como-funciona.md)
 * [⁉️ FAQ](baralhada/faq.md)
-* [Troubleshooting](baralhada/troubleshooting.md)
 
-## 🖥️ Primeiros Passos
+## Primeiros Passos
 
 * [📥 Instalação](primeiros-passos/instalacao/README.md)
   * [🔑 Oauth Token Bot](primeiros-passos/instalacao/oauth-token-bot.md)
@@ -82,7 +81,7 @@
     * [🩺 Diagnóstico](aplicacao/sistema/especificacoes-tecnicas/diagnostico.md)
     * [🟣 Integração Twitch API (Helix)](aplicacao/sistema/especificacoes-tecnicas/integracao-twitch-api-helix.md)
 
-## 🚀 Engajamento
+## Engajamento
 
 * [📈 Dicas de Engajamento](engajamento/dicas-de-engajamento.md)
 * [💡 Estratégias](engajamento/estrategias.md)
