@@ -8,13 +8,13 @@ Pontos são a base da economia do **Baralhada Bot**. Configure como seus especta
 
 {% stepper %}
 {% step %}
-## Vá em Painel → Pontos
+### Vá em Painel → Pontos
 
 Defina as regras globais de como os pontos são gerados.
 {% endstep %}
 
 {% step %}
-## Ajuste os multiplicadores
+### Ajuste os multiplicadores
 
 Configure quanto vale cada ação do espectador:
 
@@ -22,7 +22,7 @@ Configure quanto vale cada ação do espectador:
 {% endstep %}
 
 {% step %}
-## Salve e Aplique
+### Salve e Aplique
 
 As mudanças entram em vigor imediatamente para todos os usuários ativos.
 {% endstep %}

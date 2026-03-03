@@ -1,39 +1,71 @@
 # Estatisticas
 
-## Visão Geral
+## 📊 O que esta página oferece?
 
-A página de Estatísticas oferece uma visão analítica completa da atividade do bot e dos usuários no canal.
+A página de estatísticas consolida dados de todos os bancos de dados do bot para fornecer uma visão panorâmica do jogo.
 
-## O que é Exibido
 
-### Métricas Gerais
 
-| Métrica              | Descrição                           |
-| -------------------- | ----------------------------------- |
-| Total de Usuários    | Viewers cadastrados no sistema      |
-| Cartas em Circulação | Total de cartas nos inventários     |
-| Total de Pontos      | Soma de pontos de todos os usuários |
-| Spawns Realizados    | Quantos spawns ocorreram            |
-| Trocas Realizadas    | Número total de trades              |
-| Itens Vendidos       | Total de vendas realizadas          |
+## 🛠️ Principais Seções
 
-### Rankings
+No topo da página, quatro indicadores essenciais mostram o estado atual do bot:
 
-**Top Colecionadores:** usuários com mais cartas únicas no inventário.
+* **Total de Usuários (Azul):** Quantidade de perfis únicos criados.
+* **Pontos Totais (Amarelo):** Soma de todos os pontos de todos os jogadores (Massa Monetária).
+* **Cartas Totais (Magenta):** Volume total de cartas em circulação nos inventários.
+* **Cartas Únicas (Verde):** Quantidade de cartas diferentes cadastradas no seu catálogo.
 
-**Top Mais Ricos:** usuários com mais pontos acumulados.
+## 🏆 Rankings de Desempenho
 
-### Distribuição por Raridade
+O painel central divide os melhores jogadores em duas categorias:
 
-Gráfico de barras com o total de cartas em circulação separados por raridade. Ajuda a identificar se há excesso ou escassez de cartas raras/lendárias.
+#### 💰 Top 10 Ricos
 
-### Atividade Recente
+Lista os jogadores com maior saldo de pontos no momento.
 
-Log das últimas ações realizadas no sistema (claims, compras, trocas, aberturas de pacote).
+* **Dica:** Útil para identificar quem tem mais poder de compra na sua loja.
 
-### Atividade por Horário
+#### 🎴 Top 10 Colecionadores
 
-Gráfico mostrando em quais horários há mais interação com o bot — útil para ajustar os horários de spawn.
+Lista quem possui o maior volume bruto de cartas (incluindo repetidas).
+
+* **Impacto:** Serve como termômetro de quem mais interage com os comandos de `!claim` e `!abrir`.
+
+
+
+## 🍕 Distribuição de Raridades
+
+Um gráfico de pizza detalhado que mostra como as cartas estão distribuídas no sistema.
+
+* **Cartas Únicas:** Quantas artes diferentes de cada raridade existem.
+* **Circulação:** Quantas cópias de cada raridade os jogadores possuem no total.
+
+{% hint style="info" %}
+Se o gráfico mostrar que existem mais "Lendárias" em circulação do que "Comuns", sua economia está inflacionada. Considere diminuir os `drops` ou aumentar a dificuldade das missões.
+{% endhint %}
+
+## 📈 Gráficos de Atividade e Engajamento
+
+#### ⏰ Fluxo de Atividade (24h)
+
+Exibe os picos de interação do bot ao longo do dia.
+
+* **Vantagem:** Descubra qual horário da sua live gera mais engajamento com o sistema de cartas.
+
+#### ⚡ Ações Populares
+
+Gráfico de barras que compara o uso de diferentes comandos (Compra, Venda, Troca, Resgate, etc).
+
+* **Análise:** Se "Troca" estiver baixo, talvez seja hora de incentivar os jogadores a negociar entre si!
+
+## 🛡️ Regra de Ouro
+
+* **Impacto**: Ignorar as estatísticas pode levar a uma inflação descontrolada, onde todos têm milhões de pontos e nada tem valor.
+* **Vantagem**: Use os dados de "Ações Populares" para saber quais comandos os viewers mais gostam e foque em criar conteúdo/eventos em cima disso.
+
+{% hint style="success" %}
+**Dica Pro:** Verifique o ranking de colecionadores regularmente. Streamers costumam dar cargos especiais no Discord ou recompensas na live para os Top 3 do mês!
+{% endhint %}
 
 {% hint style="info" %}
 Dicas de Uso
@@ -42,3 +74,4 @@ Dicas de Uso
 * A **distribuição de raridade** ajuda a balancear os pacotes.
 * O **gráfico por horário** revela o pico de engajamento, ideal para posicionar spawns especiais.
 {% endhint %}
+

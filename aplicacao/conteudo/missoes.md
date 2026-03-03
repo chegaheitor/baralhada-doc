@@ -8,9 +8,9 @@ Missões são objetivos com condições e recompensas. Os usuários progridem au
 
 {% stepper %}
 {% step %}
-### Vá ao painel de Missões
+### Vá em Painel → Missões
 
-Acesse: **Painel → Missões**
+Veja todo o painel de missões&#x20;
 {% endstep %}
 
 {% step %}
@@ -46,7 +46,7 @@ O progresso é atualizado automaticamente cada vez que o usuário realiza a aç�
 
 ## 🎁 Recompensas
 
-Configure o que o usuário recebe ao completar a missão:
+As recompensas são as mais variadas, configure o que o usuário recebe ao completar a missão de acordo com a complexidade da missão:
 
 * **Pontos:** valor numérico de pontos
 * **XP:** valor numério de xp
@@ -68,9 +68,13 @@ O bot monitora todas as ações em tempo real:
 * **Impacto na Economia**: Use as missões para injetar pontos na economia de forma controlada, sem depender apenas do tempo de visualização.
 
 {% hint style="info" %}
-**Regra de Ouro**: Mantenha as missões diárias fáceis! Isso garante que o viewer se sinta recompensado logo no início da stream, aumentando as chances de ele permanecer na live para tentar objetivos mais difíceis.
+Mantenha as missões diárias fáceis! Isso garante que o viewer se sinta recompensado logo no início da stream, aumentando as chances de ele permanecer na live para tentar objetivos mais difíceis.
 {% endhint %}
 
+## 📊 Visualizar Progresso
+
+É possivel visualizar o progresso de cada missão individualmente, para ver quais usuários ja completou e quais estão quase lá!
+
 {% hint style="danger" %}
-e você deletar uma missão, todo o progresso dos usuários nela será removido permanentemente. Prefira editar ou desativar em vez de excluir.
+Se você deletar uma missão, todo o progresso dos usuários nela será removido permanentemente. Prefira editar ou desativar em vez de excluir.
 {% endhint %}

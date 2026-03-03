@@ -1,66 +1,38 @@
 # Troca Manual
 
-## O que é
+## 🤝 O que é a Troca Manual
 
-A Troca Manual permite que o **administrador** transfira itens entre dois usuários diretamente pelo painel, sem precisar dos comandos do chat. Útil para:
+Diferente do comando `!troca` (onde os viewers negociam entre si), a Troca Manual permite que o streamer mova itens entre inventários sem necessidade de confirmação da outra parte.
 
-* Corrigir erros em trocas que falharam
-* Distribuir prêmios de eventos
-* Ajustar inventários manualmente
-* Realizar trocas especiais acordadas fora do chat
-
-## Como Usar
+### 🛠️ Como realizar uma Troca Manual
 
 {% stepper %}
 {% step %}
-### Selecione os usuários
+### Vá em Painel → Trocas Manuais
 
-* Vá em **Painel → Troca Manual**
-* Selecione o **Usuário A** no seletor esquerdo
-* Selecione o **Usuário B** no seletor direito
+Acesse a interface de movimentação de itens.
 {% endstep %}
 
 {% step %}
-### Carregamento dos inventários
+### Selecione a Origem e Destino
 
-* Os inventários de ambos são carregados automaticamente
-* Use a barra de pesquisa para filtrar itens
+Escolha de qual usuário o item sairá e para quem ele irá.
 {% endstep %}
 
 {% step %}
-### Seleção de itens
+### Escolha os Itens
 
-* Clique em um item para adicioná-lo à seleção
-* Ajuste a quantidade com os botões `+` e `-`
-{% endstep %}
+Selecione as cartas ou pacotes específicos na lista.
 
-{% step %}
-### Confirmação
-
-* Clique em **Confirmar Troca**
-* Um modal de confirmação exibirá o resumo completo antes de finalizar
+<table><thead><tr><th width="192">Campo</th><th>Descrição</th></tr></thead><tbody><tr><td><strong>Usuário A (De)</strong></td><td>O usuário que perderá o item.</td></tr><tr><td><strong>Usuário B (Para)</strong></td><td>O usuário que receberá o item.</td></tr><tr><td><strong>Tipo de Item</strong></td><td>Carta ou Pacote.</td></tr><tr><td><strong>Quantidade</strong></td><td>Quantas instâncias mover (ex: 3 cartas iguais).</td></tr></tbody></table>
 {% endstep %}
 {% endstepper %}
 
-## Interface
+##
 
-* **Lado esquerdo:** inventário do Usuário A (o que ele vai dar)
-* **Lado direito:** inventário do Usuário B (o que ele vai dar)
-* **Área central:** resumo dos itens selecionados de cada lado
-
-Como os itens são exibidos:
-
-* Cartas: aparecem com **imagem, nome e raridade**
-* Pacotes: aparecem com **imagem e quantidade disponível**
-
-## Confirmação
-
-Antes de realizar a troca, um modal de confirmação exibe o resumo completo:
-
-```
-Usuário A (chegaheitor): 1x Dragão de Fogo
-Usuário B (amigo): 2x Pacote Básico
-```
+{% hint style="info" %}
+Utilize a troca manual para corrigir erros em trocas que falharam, ajustar inventários manualmente e faça trocas especiais acordadas fora do chat
+{% endhint %}
 
 {% hint style="warning" %}
 A troca é irreversível pela interface. Em caso de erro, use **Painel → Usuários** para ajustar os inventários manualmente.

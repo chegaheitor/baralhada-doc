@@ -8,9 +8,9 @@ Os pacotes são os recipientes que contêm suas cartas colecionáveis. Eles defi
 
 {% stepper %}
 {% step %}
-### Acesse a área de pacotes
+### Vá em **Painel → Pacotes**.
 
-Vá em **Painel → Pacotes**.
+A base das suas cartas estão aqui, sem pacote, sem carta.
 {% endstep %}
 
 {% step %}

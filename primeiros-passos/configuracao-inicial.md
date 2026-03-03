@@ -22,6 +22,10 @@ O bot precisa de uma "identidade" para falar no chat.
 * **Bot Username:** O nome da conta que vai ser o bot. (Pode ser a sua conta principal ou uma conta criada apenas para o bot). ex: `baralhadaBot`
 * **Bot OAuth Token:** A "senha" de acesso ao chat. Veja como obter [aqui.](instalacao/oauth-token-bot.md)
 
+{% hint style="warning" %}
+Se você mudar a senha da sua conta BOT da Twitch, precisará gerar um novo **OAuth Token** para que o bot volte a funcionar.
+{% endhint %}
+
 #### 🔑 Aplicação Dev API (Obrigatório para funções avançadas)
 
 Para que o bot consiga buscar fotos de perfil e verificar informações da API da Twitch.

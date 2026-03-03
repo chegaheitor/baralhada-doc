@@ -8,9 +8,9 @@ As conquistas são o "Hall da Fama" dos seus espectadores. Diferente das missõe
 
 {% stepper %}
 {% step %}
-### Vá ao painel de Conquista
+### Vá em Painel → Conquista
 
-Acesse: **Painel → Conquista**
+Tenha acesso a lista de conquistas criadas
 {% endstep %}
 
 {% step %}

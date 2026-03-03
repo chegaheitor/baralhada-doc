@@ -12,9 +12,9 @@ O bot monitora timers configurados no Painel Admin. Quando o tempo de um spawn a
 
 {% stepper %}
 {% step %}
-### Vá ao painel
+### Vá em **Painel → Spawns**.
 
-Vá em **Painel → Spawns**.
+Aqui você define todos os eventos de spawn!
 {% endstep %}
 
 {% step %}

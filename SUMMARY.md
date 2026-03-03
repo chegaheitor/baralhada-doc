@@ -76,8 +76,3 @@
   * [Backup](aplicacao/sistema/backup.md)
   * [Overlay](aplicacao/sistema/overlay.md)
   * [Configurações](aplicacao/sistema/configuracoes.md)
-
-***
-
-* [SUMMARY](summary.md)
-* [FAQ](faq.md)
