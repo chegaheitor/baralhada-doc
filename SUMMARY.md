@@ -5,6 +5,7 @@
 * [Introdução](README.md)
 * [Como funciona](baralhada/como-funciona.md)
 * [FAQ](baralhada/faq.md)
+* [Troubleshooting](baralhada/troubleshooting.md)
 
 ## 🖥️ Primeiros Passos
 
@@ -56,6 +57,7 @@
   * [Estatisticas](aplicacao/principal/estatisticas.md)
   * [Logs](aplicacao/principal/logs.md)
   * [Console](aplicacao/principal/console.md)
+  * [Desempenho](aplicacao/principal/desempenho.md)
 * [Conteúdo](aplicacao/conteudo/README.md)
   * [Pacotes](aplicacao/conteudo/pacotes/README.md)
     * [Abertura de Pacote](aplicacao/conteudo/pacotes/abertura-de-pacote.md)
@@ -76,3 +78,15 @@
   * [Backup](aplicacao/sistema/backup.md)
   * [Overlay](aplicacao/sistema/overlay.md)
   * [Configurações](aplicacao/sistema/configuracoes.md)
+  * [Especificações Técnicas](aplicacao/sistema/especificacoes-tecnicas/README.md)
+    * [Arquitetura e Conectividade](aplicacao/sistema/especificacoes-tecnicas/arquitetura-e-conectividade.md)
+    * [Diagnóstico](aplicacao/sistema/especificacoes-tecnicas/diagnostico.md)
+    * [Integração Twitch API (Helix)](aplicacao/sistema/especificacoes-tecnicas/integracao-twitch-api-helix.md)
+
+## Engajamento
+
+* [Dicas de Engajamento](engajamento/dicas-de-engajamento.md)
+* [Estratégias](engajamento/estrategias.md)
+* [Eventos Sazonais](engajamento/eventos-sazonais.md)
+* [Economia Avançada](engajamento/economia-avancada.md)
+* [Storytelling](engajamento/storytelling.md)
