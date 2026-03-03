@@ -1,4 +1,4 @@
-# Pacotes
+# 📦 Pacotes
 
 ## 📦 O que é um Pacote
 

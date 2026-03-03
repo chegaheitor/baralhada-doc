@@ -1,4 +1,4 @@
-# Abrir
+# 📤 Abrir
 
 ## ⌨️ Como usar
 

@@ -1,4 +1,4 @@
-# Loja
+# 🛒 Loja
 
 ## 🛒 Como Funciona a Loja
 

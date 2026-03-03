@@ -1,4 +1,4 @@
-# Glossário
+# 📚 Glossário
 
 Para facilitar o entendimento, aqui estão as definições dos termos usados neste projeto:
 

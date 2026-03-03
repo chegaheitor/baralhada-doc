@@ -1,4 +1,4 @@
-# Pontos
+# 🪙 Pontos
 
 ## ⌨️ Como usar
 

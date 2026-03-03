@@ -1,4 +1,4 @@
-# Spawns/Eventos
+# ✨ Spawns/Eventos
 
 ## 🕹️ O que é um Spawn
 

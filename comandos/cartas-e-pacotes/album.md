@@ -1,4 +1,4 @@
-# Album
+# 🖼️ Álbum
 
 ## ⌨️ Como usar
 

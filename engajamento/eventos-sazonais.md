@@ -1,4 +1,4 @@
-# Eventos Sazonais
+# 📅 Eventos Sazonais
 
 Manter o Baralhada Bot sempre igual pode gerar monotonia. Os eventos sazonais são a melhor forma de **renovar o interesse** da comunidade e criar picos de audiência e participação.
 

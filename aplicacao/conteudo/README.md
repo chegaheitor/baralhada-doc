@@ -1,4 +1,4 @@
-# Conteúdo
+# 🗃️ Conteúdo
 
 Aqui é onde a mágica acontece. Esta categoria engloba todos os elementos que compõem o ecossistema de jogo do seu bot, desde as cartas individuais até os grandes eventos de spawn.
 

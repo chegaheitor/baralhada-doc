@@ -1,4 +1,4 @@
-# Estatisticas
+# 📊 Estatisticas
 
 ## 📊 O que esta página oferece?
 

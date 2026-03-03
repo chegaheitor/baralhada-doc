@@ -1,4 +1,4 @@
-# Comunidade
+# 👥 Comunidade
 
 Esta categoria é focada nos seus usuários. Aqui você gerencia a progressão, a economia pessoal de cada jogador e as interações entre eles, como trocas e ganhos de níveis.
 

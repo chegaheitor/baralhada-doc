@@ -1,4 +1,4 @@
-# Desambiguação de Itens
+# ⚖️ Desambiguação de Itens
 
 ## 🧠´O Problema
 

@@ -1,4 +1,4 @@
-# Storytelling
+# 📜 Storytelling
 
 Um dos maiores diferenciais do Baralhada Bot é a capacidade de transformar cartas em **pedaços da história da sua live**. Quando as cartas possuem significado, elas deixam de ser "apenas pixels" e passam a ser troféus cobiçados.
 

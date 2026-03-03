@@ -1,4 +1,4 @@
-# Usuarios
+# 👤 Usuarios
 
 ## 👤 O que é o Gerenciamento de Usuários
 

@@ -1,4 +1,4 @@
-# Troca Manual
+# 🤝 Troca Manual
 
 ## 🤝 O que é a Troca Manual
 

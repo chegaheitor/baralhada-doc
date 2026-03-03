@@ -1,4 +1,4 @@
-# Visão Geral
+# 🔍 Visão Geral
 
 O Baralhada Bot responde a comandos digitados no chat do Twitch. Todos os comandos precisam começar com `!` para ser detectado pelo bot no chat para funcionar.
 

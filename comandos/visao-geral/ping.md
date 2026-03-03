@@ -1,4 +1,4 @@
-# Ping
+# ⚡ Ping
 
 ## ⌨️ Como usar
 

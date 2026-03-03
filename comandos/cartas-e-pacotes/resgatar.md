@@ -1,4 +1,4 @@
-# Resgatar
+# ✅ Resgatar
 
 ## ⌨️ Como usar
 

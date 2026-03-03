@@ -1,4 +1,4 @@
-# Adicionar e Remover Pontos
+# 🪙 Adicionar e Remover Pontos
 
 ## ⌨️ Como usar
 

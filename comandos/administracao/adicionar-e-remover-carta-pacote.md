@@ -1,4 +1,4 @@
-# Adicionar e Remover Carta/Pacote
+# ➕ Adicionar e Remover Carta/Pacote
 
 ## ⌨️ Como usar
 

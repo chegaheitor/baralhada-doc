@@ -1,4 +1,4 @@
-# Mensagens
+# ✉️ Mensagens
 
 ## 💬 O que são as Mensagens do Bot
 

@@ -1,4 +1,4 @@
-# Integração Twitch API (Helix)
+# 🟣 Integração Twitch API (Helix)
 
 O Baralhada vai além de um bot de chat comum ao utilizar a **Twitch Helix API**. Essa integração permite que o bot tenha um visual muito mais rico, buscando fotos de perfil e informações detalhadas dos usuários em tempo real.
 

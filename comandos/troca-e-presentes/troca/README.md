@@ -1,4 +1,4 @@
-# Troca
+# 🔁 Troca
 
 ## ⌨️ Como usar
 

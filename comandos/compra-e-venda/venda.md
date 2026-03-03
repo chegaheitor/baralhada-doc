@@ -1,4 +1,4 @@
-# Venda
+# 💸 Venda
 
 ## ⌨️ Como usar
 

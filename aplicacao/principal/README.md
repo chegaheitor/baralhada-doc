@@ -1,4 +1,4 @@
-# Principal
+# 🏠 Principal
 
 Esta categoria agrupa as ferramentas fundamentais para monitorar a saúde do seu bot e entender o comportamento dos seus usuários em tempo real. É o seu "painel de controle" para decisões rápidas e auditoria.
 

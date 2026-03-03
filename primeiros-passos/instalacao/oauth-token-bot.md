@@ -1,4 +1,4 @@
-# Oauth Token Bot
+# 🔑 Oauth Token Bot
 
 ## 🤖 Como obter o Token OAuth do Bot
 

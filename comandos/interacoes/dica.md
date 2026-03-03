@@ -1,4 +1,4 @@
-# Dica
+# 🕵️ Dica
 
 ## ⌨️ Como usar
 

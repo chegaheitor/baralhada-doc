@@ -1,4 +1,4 @@
-# Configurações
+# 🛠️ Configurações
 
 ## ⚙️ O que são as Configurações
 

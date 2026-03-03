@@ -1,4 +1,4 @@
-# Pontos
+# 🪙 Pontos
 
 ## 💳 O que são os Pontos
 

@@ -1,4 +1,4 @@
-# Personalização
+# 🎨 Personalização
 
 ## 💎 O que são Raridades e Tipagens
 

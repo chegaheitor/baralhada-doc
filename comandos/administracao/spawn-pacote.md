@@ -1,4 +1,4 @@
-# Spawn Pacote
+# ✨ Spawn Pacote
 
 ## ⌨️ Como usar
 

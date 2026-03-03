@@ -1,4 +1,4 @@
-# Integração com OBS
+# 📺 Integração com OBS
 
 ## 📺 Overlay e Alertas
 

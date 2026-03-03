@@ -1,4 +1,4 @@
-# Dicas de Engajamento
+# 📈 Dicas de Engajamento
 
 O engajamento é o coração do Baralhada. O bot não serve apenas para "dar cartas", mas para criar uma dinâmica social onde o seu chat se torna mais ativo, competitivo e fiel.
 

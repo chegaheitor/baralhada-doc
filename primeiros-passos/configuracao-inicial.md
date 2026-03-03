@@ -1,4 +1,4 @@
-# Configuração Inicial
+# ⚙️ Configuração Inicial
 
 ## 🚀 Configuração Inicial
 

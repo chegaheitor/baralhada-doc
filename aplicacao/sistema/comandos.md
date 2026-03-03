@@ -1,4 +1,4 @@
-# Comandos
+# ⌨️ Comandos
 
 ## ⌨️ O que é o Gerenciador de Comandos
 

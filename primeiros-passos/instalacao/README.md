@@ -1,4 +1,4 @@
-# Instalação
+# 📥 Instalação
 
 ## 💻 Requisitos
 

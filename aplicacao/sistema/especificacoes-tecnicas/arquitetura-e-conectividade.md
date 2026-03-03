@@ -1,4 +1,4 @@
-# Arquitetura e Conectividade
+# 🏗️ Arquitetura e Conectividade
 
 O Baralhada Bot é uma aplicação híbrida que combina o poder do **Electron** para a interface desktop com a flexibilidade de um servidor **Node.js/Express** para gerenciar a lógica do bot e a API.
 

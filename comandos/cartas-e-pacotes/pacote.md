@@ -1,4 +1,4 @@
-# Pack
+# 🎁 Pacote
 
 ## ⌨️ Como usar
 

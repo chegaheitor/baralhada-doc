@@ -1,4 +1,4 @@
-# Diagnóstico
+# 🩺 Diagnóstico
 
 Uma das funcionalidades mais poderosas "escondidas" no Baralhada Bot é o seu sistema de diagnóstico em tempo real, que captura muito mais do que apenas conversas de chat.
 

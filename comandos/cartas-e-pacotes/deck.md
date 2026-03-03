@@ -1,4 +1,4 @@
-# Deck
+# 🗃️ Deck
 
 ## ⌨️ Como usar
 

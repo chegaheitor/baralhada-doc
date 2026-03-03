@@ -1,4 +1,4 @@
-# Introdução
+# 👋 Introdução
 
 {% hint style="success" %}
 Bem-vindo à documentação oficial do **Baralhada Bot**! Este é o guia completo para transformar sua stream em um verdadeiro ecossistema de TCG (Trading Card Game) interativo na Twitch.

@@ -1,4 +1,4 @@
-# Estratégias
+# 💡 Estratégias
 
 O Baralhada Bot não é apenas um sistema de cartas; é uma ferramenta de **retenção** e **entretenimento**. Abaixo, reunimos algumas estratégias usadas por streamers de sucesso para manter o chat ativo e a comunidade engajada.
 

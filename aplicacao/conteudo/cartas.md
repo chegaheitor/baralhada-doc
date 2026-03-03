@@ -1,4 +1,4 @@
-# Cartas
+# 🎴 Cartas
 
 ## 🃏 O que é uma Carta
 

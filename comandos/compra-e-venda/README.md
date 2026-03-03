@@ -1,4 +1,4 @@
-# Compra e Venda
+# 💰 Compra e Venda
 
 ## 💰 Comandos: Compra e Venda
 

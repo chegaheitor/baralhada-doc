@@ -1,4 +1,4 @@
-# Sistema
+# ⚙️ Sistema
 
 A base tecnológica do seu bot. Nesta categoria você configura a "espinha dorsal" do aplicativo, desde as mensagens que o bot envia até a segurança dos seus dados.
 

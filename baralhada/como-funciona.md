@@ -1,4 +1,4 @@
-# Como funciona
+# 📖 Como funciona
 
 ## O Ciclo de Jogo
 

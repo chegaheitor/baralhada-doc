@@ -1,4 +1,4 @@
-# Aplicação Dev Twitch
+# 🔗 Aplicação Dev Twitch
 
 ## 🔑 Como obter seu Client ID e Client Secret (Helix API)
 

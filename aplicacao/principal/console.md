@@ -1,4 +1,4 @@
-# Console
+# 💻 Console
 
 ## 🖥️ Para que serve o Console?
 

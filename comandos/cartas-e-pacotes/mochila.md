@@ -1,4 +1,4 @@
-# Mochila
+# 🎒 Mochila
 
 ## ⌨️ Como usar
 

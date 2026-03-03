@@ -1,4 +1,4 @@
-# Daily
+# ☀️ Daily
 
 ## ⌨️ Como usar
 

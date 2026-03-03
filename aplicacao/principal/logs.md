@@ -1,4 +1,4 @@
-# Logs
+# 📝 Logs
 
 ## 📜 O que são os Logs?
 

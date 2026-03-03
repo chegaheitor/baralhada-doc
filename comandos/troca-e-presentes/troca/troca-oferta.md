@@ -1,4 +1,4 @@
-# Troca Oferta
+# ✉️ Troca Oferta
 
 ## ⌨️ Como usar
 
