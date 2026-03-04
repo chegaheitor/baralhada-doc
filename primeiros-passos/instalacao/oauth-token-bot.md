@@ -31,7 +31,11 @@ Para o Baralhada Bot funcionar, você **DEVE** selecionar os seguintes itens (sc
 
 * `channel:moderate`: Permite que o bot execute ações de moderação (útil para comandos de moderação futuros).
 * `whispers:read` e `user:manage:whispers`: Permite que o bot responda via sussurro se configurado.
-* **`channel:read:redemptions`**: Permite que o bot interaja quando alguém resgata um item na loja de pontos da Twitch (sem digitar nada no chat).
+* `channel:read:redemptions`: Permite que o bot interaja quando alguém resgata um item na loja de pontos da Twitch (sem digitar nada no chat).
+* `channel:manage:redemptions`: Permite ao bot "limpar" ou marcar como concluídos os resgates de pontos do canal.
+* `channel:read:subscriptions`: Permite ao bot dar recompensas automáticas (XP/Pontos) quando alguém se torna Sub.
+* `channel:read:emotes`: Usado pelo programa para listar e exibir os emotes customizados do seu canal na interface.
+* `bits:read`: Permite ao bot reagir e dar recompensas quando alguém envia Bits.
 
 ### 4. Gere e Autorize
 
