@@ -26,11 +26,11 @@ Para o Baralhada Bot funcionar, você **DEVE** selecionar os seguintes itens (sc
 * `user:write:chat`: (Novo) Permite enviar mensagens via API moderna da Twitch.
 * `channel:bot`: Identifica a conta oficialmente como um Bot para a Twitch.
 * `user:bot`: Permite que a conta atue como um bot.
+* `whispers:read` e `user:manage:whispers`: Permite que o bot responda via sussurro se configurado.
 
 #### 🌟 RECOMENDADOS (Para melhor funcionamento):
 
 * `channel:moderate`: Permite que o bot execute ações de moderação (útil para comandos de moderação futuros).
-* `whispers:read` e `user:manage:whispers`: Permite que o bot responda via sussurro se configurado.
 * `channel:read:redemptions`: Permite que o bot interaja quando alguém resgata um item na loja de pontos da Twitch (sem digitar nada no chat).
 * `channel:manage:redemptions`: Permite ao bot "limpar" ou marcar como concluídos os resgates de pontos do canal.
 * `channel:read:subscriptions`: Permite ao bot dar recompensas automáticas (XP/Pontos) quando alguém se torna Sub.
