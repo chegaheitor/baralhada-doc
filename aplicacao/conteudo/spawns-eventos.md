@@ -28,12 +28,13 @@ Clique em **Novo Evento**.
 
 Preencha os campos:
 
-| Campo               | Descrição                                    |
-| ------------------- | -------------------------------------------- |
-| **Nome do Evento**  | Determina o nome do evento                   |
-| **Intervalo (min)** | De quantos em quantos minutos o spawn ocorre |
-| **Pacotes**         | Qual pacote será lançado neste spawner       |
-| **Ativo**           | Ligar/desligar este spawner                  |
+| Campo               | Descrição                                                        |
+| ------------------- | ---------------------------------------------------------------- |
+| **Nome do Evento**  | Determina o nome do evento                                       |
+| **Intervalo (min)** | De quantos em quantos minutos o spawn ocorre                     |
+| **Pacotes**         | Qual pacote será lançado neste spawner                           |
+| **Cofre da Sorte**  | Porcentagem do comando !cofre\_sorte spawnar como evento no chat |
+| **Ativo**           | Ligar/desligar este spawner                                      |
 {% endstep %}
 {% endstepper %}
 
@@ -104,3 +105,6 @@ Precisa de um drop instantâneo? No Dashboard, clique em **Spawn Manual**, selec
 {% hint style="warning" %}
 Verifique se os pacotes selecionados possuem cartas configuradas dentro deles, caso contrário o espectador ganhará um pacote vazio.
 {% endhint %}
+
+## 🍀 Spawn Manual
+

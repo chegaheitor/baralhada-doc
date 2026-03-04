@@ -27,6 +27,7 @@
   * [🎯 Missão](comandos/interacoes/missao.md)
   * [🏆 Conquista](comandos/interacoes/conquista.md)
   * [🕵️ Dica](comandos/interacoes/dica.md)
+  * [🤑 Apostar](comandos/interacoes/apostar.md)
 * [📦 Cartas e Pacotes](comandos/cartas-e-pacotes/README.md)
   * [🎴 Carta](comandos/cartas-e-pacotes/carta.md)
   * [🎁 Pacote](comandos/cartas-e-pacotes/pacote.md)
@@ -47,6 +48,7 @@
   * [➕ Adicionar e Remover Carta/Pacote](comandos/administracao/adicionar-e-remover-carta-pacote.md)
   * [🪙 Adicionar e Remover Pontos](comandos/administracao/adicionar-e-remover-pontos.md)
   * [✨ Spawn Pacote](comandos/administracao/spawn-pacote.md)
+  * [🍀 Cofre da Sorte](comandos/administracao/cofre-da-sorte.md)
 
 ## Aplicação
 
