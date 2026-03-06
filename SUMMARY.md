@@ -68,6 +68,7 @@
   * [🏆 Conquistas](aplicacao/conteudo/conquistas.md)
 * [👥 Comunidade](aplicacao/comunidade/README.md)
   * [👤 Usuarios](aplicacao/comunidade/usuarios.md)
+  * [📺 Eventos de Stream](aplicacao/comunidade/eventos-de-stream.md)
   * [🪙 Pontos](aplicacao/comunidade/pontos.md)
   * [🤝 Troca Manual](aplicacao/comunidade/troca-manual.md)
   * [📈 Níveis e XP](aplicacao/comunidade/niveis-e-xp.md)

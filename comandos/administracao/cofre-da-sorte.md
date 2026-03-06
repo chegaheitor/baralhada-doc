@@ -23,7 +23,7 @@ O **Cofre da Sorte** é um evento especial de spawn que pode aparecer aleatoriam
 1. **Alerta:** Um overlay especial aparece avisando que um Cofre da Sorte está no chat.
 2. **Participação:** Os usuários devem digitar `!participar` dentro do tempo limite.
 3. **Sorteio:** Após o tempo expirar, o bot escolhe um vencedor aleatório entre os participantes.
-4. **Premiação:** O vencedor recebe o conteúdo do cofre (pontos, packs ou cartas) e um overlay de comemoração é exibido.
+4. **Premiação:** O vencedor recebe o conteúdo do cofre (cartas) e um overlay de comemoração é exibido.
 
 ## ⚙️ Configuração
 

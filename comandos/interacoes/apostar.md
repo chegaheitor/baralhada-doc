@@ -29,7 +29,7 @@ Tente a sorte e aposte seus pontos para ganhar um multiplicador sobre o valor ap
 
 ### ⚙️ Configurações
 
-Este comando é influenciado pelas seguintes definições na página de **Pontos**:
+Este comando é influenciado pelas seguintes definições na página de [**Pontos**](../../aplicacao/comunidade/pontos.md):
 
 * **Chance de Vitória:** A probabilidade (0-100) do usuário vencer a aposta.
 * **Multiplicador:** O valor pelo qual a aposta é multiplicada em caso de vitória.

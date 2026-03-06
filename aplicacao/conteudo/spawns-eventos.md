@@ -106,5 +106,7 @@ Precisa de um drop instantâneo? No Dashboard, clique em **Spawn Manual**, selec
 Verifique se os pacotes selecionados possuem cartas configuradas dentro deles, caso contrário o espectador ganhará um pacote vazio.
 {% endhint %}
 
-## 🍀 Spawn Manual
+## 🍀 Cofre da Sorte
+
+A funcionalidade [Cofre da Sorte](../../comandos/administracao/cofre-da-sorte.md) pode ser utilizada como se fosse um spawn. Configure as chances dele ser spawnado e ao invés de ser spawnado um pacote, o Baralhada spawna um Cofre da Sorte para os viewers, automatizando o comando.
 
