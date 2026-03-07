@@ -73,6 +73,7 @@
   * [🪙 Pontos](aplicacao/comunidade/pontos.md)
   * [🏪 Marketplace](aplicacao/comunidade/marketplace.md)
   * [🤝 Troca Manual](aplicacao/comunidade/troca-manual.md)
+  * [🤝 Copy of Troca Manual](aplicacao/comunidade/copy-of-troca-manual.md)
   * [📈 Níveis e XP](aplicacao/comunidade/niveis-e-xp.md)
 * [⚙️ Sistema](aplicacao/sistema/README.md)
   * [⌨️ Comandos](aplicacao/sistema/comandos.md)

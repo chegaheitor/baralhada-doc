@@ -2,81 +2,59 @@
 
 ## 💰 O que é o Marketplace
 
-O Marketplace é uma&#x20;
+O bot possui um sistema econômico robusto que permite que os viewers comprem e vendam itens. Existem duas formas de comércio: a **Loja Rotativa** (NPC) e o **Marketplace** (P2P).
 
-## 💸 Configurando o Ganho de Pontos
+## 👥 Marketplace (Jogador para Jogador)
+
+O Marketplace é onde os viewers anunciam suas próprias cartas e pacotes para que outros comprem.
 
 {% stepper %}
 {% step %}
-### Vá em Painel → Pontos
+### 📝 Anunciar Escolha um item do seu inventário e defina um preço.
 
-Defina as regras globais de como os pontos são gerados.
+* **Comando**: `!anunciar <slug_do_item> <preço>`
+* **Exemplo**: `!anunciar dragao_azul 2000`
 {% endstep %}
 
 {% step %}
-### Ajuste os multiplicadores
+### 🔍 Ver Itens Consulte o que está à venda no momento.
 
-Configure quanto vale cada ação do espectador:
-
-<table><thead><tr><th width="150">Gatilho</th><th>Descrição</th></tr></thead><tbody><tr><td><strong>Mensagem</strong></td><td>Pontos ganhos por cada mensagem enviada no chat.</td></tr><tr><td><strong>Tempo de Watch</strong></td><td>Pontos ganhos a cada X minutos assistindo à live.</td></tr><tr><td><strong>Daily Base</strong></td><td>Valor fixo do comando <code>!daily</code>.</td></tr><tr><td><strong>Abertura de Pacote</strong></td><td>Pontos ganhos por cada pacote aberto individualmente.</td></tr></tbody></table>
+* **Comando**: `!marketplace`
+* **Resposta**: O bot envia a lista completa via Sussurro.
 {% endstep %}
 
 {% step %}
-### Salve e Aplique
+### 💰 Comprar Interessado em um item? Use o ID fornecido na lista.
 
-As mudanças entram em vigor imediatamente para todos os usuários ativos.
+* **Comando**: `!comprar_market <id_do_anuncio>`
+* **Exemplo**: `!comprar_market 123`
 {% endstep %}
 {% endstepper %}
 
-{% hint style="info" %}
-Se todos tiverem milhões de pontos, as cartas lendárias param de ser especiais. Mantenha os preços da loja equilibrados com o ganho médio.
+{% hint style="warning" %}
+**Regra do Market**: Quando você anuncia um item, ele sai do seu inventário e "mora" no marketplace até ser comprado ou o anúncio ser cancelado (via Painel Admin).
 {% endhint %}
 
-## 💬 Mensagens no Chat
+***
 
-Recompensa a interação verbal do seu público. Quanto mais conversar, mais ponto o viewer ganha!
+## 🎭 Loja Rotativa
 
-* **Impacto**: Aumenta o volume do chat, melhorando o engajamento geral da live.
-* **Dica**: Não coloque valores muito altos em mensagens para não incentivar o spam sem sentido.
+A Loja do Reino é uma loja automática que rotaciona itens com **descontos exclusivos**.
 
-## ⏳ Tempo de Live (Watch-time)
+#### 📝 Comandos da Loja:
 
-Recompensa a fidelidade silenciosa (Lurkers). Fidelização de viewers é essencial na live.
-
-* **Impacto**: Garante que mesmo quem não digita no chat seja recompensado por estar ali, nem todos gostam de conversar.
-* **Vantagem**: Ajuda a manter uma média de espectadores alta por mais tempo.
-
-## 📅 Comando Daily
-
-Recompensa o retorno diário do espectador à sua live.
-
-* **Impacto**: Incentiva o hábito de entrar na live todos os dias para resgatar a recompensa.
-
-## 📦 Abertura de Pacotes
-
-Recompensa o jogador por expandir sua coleção.
-
-* **Impacto**: Mantém a economia girando ao devolver uma pequena parte do investimento (cashback).
-
-## 🎯 Missões e Objetivos
-
-Recompensa jogadores que completam desafios específicos durante a live.
-
-* **Impacto**: Cria objetivos dinâmicos que mantêm o público engajado com o conteúdo.
-
-## 🏷️ Personalização (Nome dos Pontos)
-
-O nome da moeda é você que decide! Nosso sistema permite que você dê uma identidade única à moeda do seu canal.&#x20;
-
-* **Vantagem**: Aumenta a imersão e o branding do seu canal (ex: Dobrões, Mana, Estrelas).
-* **Dica**: Escolha um nome que combine com o tema da sua live ou do seu jogo principal.
-
-## 🛒 Utilidade dos Pontos (Compra e Venda)
-
-Os pontos são a engrenagem que move a interação no Baralhada Bot.
-
-<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>Compra de Pacotes e Cartas</strong></td><td>A principal forma de obter novas cartas para a coleção através da loja.</td></tr><tr><td><strong>Venda de Itens</strong></td><td>Permite que jogadores convertam seus itens em pontos novamente.</td></tr><tr><td><strong>Ostentação no Ranking</strong></td><td>O saldo de pontos é um dos principais critérios para definir a posição dos jogadores no ranking da live.</td></tr></tbody></table>
+<table><thead><tr><th width="216">Comando</th><th>Ação</th></tr></thead><tbody><tr><td><code>!loja</code></td><td>Exibe o inventário do Reino e cronômetro de rotação (Sussurro).</td></tr><tr><td><code>!loja_comprar &#x3C;id></code></td><td>Compra o item promocional selecionado.</td></tr></tbody></table>
 
 {% hint style="success" %}
-Em dias de eventos especiais, você pode dobrar temporariamente os ganhos de pontos para comemorar com sua comunidade!
+Os itens na Loja do Reino sempre vêm com desconto (ex: 10% a 30% mais barato que o preço base).
+{% endhint %}
+
+## ⚙️ Configurações da Rodada
+
+No **Painel Admin → Marketplace**, você configura o comportamento automático do Reino:
+
+<table><thead><tr><th width="150">Campo</th><th width="100">Valor</th><th>Descrição</th></tr></thead><tbody><tr><td><strong>Itens na Loja</strong></td><td>Número</td><td>Quantos itens serão sorteados por vez.</td></tr><tr><td><strong>Janela de Rotação</strong></td><td>Horas</td><td>De quanto em quanto tempo a loja renova o estoque.</td></tr><tr><td><strong>Descontos</strong></td><td>Mín / Máx</td><td>A faixa de "off" que cada item pode receber.</td></tr></tbody></table>
+
+{% hint style="info" %}
+Você pode forçar uma rotação da loja a qualquer momento usando \`!loja\_reset\` (apenas Moderadores/Streamer).
 {% endhint %}
