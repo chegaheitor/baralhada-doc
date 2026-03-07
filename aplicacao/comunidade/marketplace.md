@@ -10,21 +10,27 @@ O Marketplace é onde os viewers anunciam suas próprias cartas e pacotes para q
 
 {% stepper %}
 {% step %}
-### 📝 Anunciar Escolha um item do seu inventário e defina um preço.
+### 📝 Anunciar
+
+Escolha um item do seu inventário e defina um preço.
 
 * **Comando**: `!anunciar <slug_do_item> <preço>`
 * **Exemplo**: `!anunciar dragao_azul 2000`
 {% endstep %}
 
 {% step %}
-### 🔍 Ver Itens Consulte o que está à venda no momento.
+### 🔍 Ver Itens
+
+Consulte o que está à venda no momento.
 
 * **Comando**: `!marketplace`
 * **Resposta**: O bot envia a lista completa via Sussurro.
 {% endstep %}
 
 {% step %}
-### 💰 Comprar Interessado em um item? Use o ID fornecido na lista.
+### 💰 Comprar
+
+Interessado em um item? Use o ID fornecido na lista.
 
 * **Comando**: `!comprar_market <id_do_anuncio>`
 * **Exemplo**: `!comprar_market 123`

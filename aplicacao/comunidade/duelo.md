@@ -1,4 +1,4 @@
-# 🤝 Copy of Troca Manual
+# ⚔️ Duelo
 
 ## 🏟️ O que é o Sistema de Duelos
 
@@ -10,21 +10,27 @@ Siga os passos abaixo para desafiar um oponente no chat:
 
 {% stepper %}
 {% step %}
-### ⚔️ O Desafio Escolha um oponente e a carta que você deseja usar.
+### ⚔️ O Desafio
+
+Escolha um oponente e a carta que você deseja usar.
 
 * **Comando**: `!duelo @usuario <slug_da_carta> <aposta>`
 * **Exemplo**: `!duelo @Bob dragao_azul 500`
 {% endstep %}
 
 {% step %}
-### 🛡️ A Defesa O oponente deve responder ao desafio com sua própria carta.
+### 🛡️ A Defesa
+
+O oponente deve responder ao desafio com sua própria carta.
 
 * **Comando**: `!defesa <slug_da_minha_carta>`
 * **Exemplo**: `!defesa fenix_fogo`
 {% endstep %}
 
 {% step %}
-### 🏆 O Resultado O bot calcula o vencedor baseado nos atributos, pesos e vantagens de tipo. Os pontos são transferidos instantaneamente.
+### 🏆 O Resultado
+
+O bot calcula o vencedor baseado nos atributos, pesos e vantagens de tipo. Os pontos são transferidos instantaneamente.
 {% endstep %}
 {% endstepper %}
 
@@ -35,7 +41,7 @@ No painel administrativo (**Configurações de Duelo**), você ajusta o equilíb
 <table><thead><tr><th width="150">Atributo</th><th width="100">Tipo</th><th>Descrição</th></tr></thead><tbody><tr><td><strong>Peso de HP</strong></td><td>Decimal</td><td>Multiplicador dos pontos de vida. Aumenta a duração da luta.</td></tr><tr><td><strong>Peso de ATK</strong></td><td>Decimal</td><td>Multiplicador do dano bruto causado por turno.</td></tr><tr><td><strong>Peso de DEF</strong></td><td>Decimal</td><td>Reduz o dano recebido.</td></tr></tbody></table>
 
 {% hint style="info" %}
-\*\*Lógica de Combate\*\*: O sistema calcula o dano por turno: \`Dano = (ATK \* Bônus\_Tipo) - (DEF\_Oponente / 2)\`. Vence quem reduzir o HP do oponente a zero primeiro.
+O sistema calcula o dano por turno: \`Dano = (ATK \* Bônus\_Tipo) - (DEF\_Oponente / 2)\`. Vence quem reduzir o HP do oponente a zero primeiro.
 {% endhint %}
 
 ## 💥 Sistema de Tipagem (Estratégia)
@@ -50,15 +56,15 @@ As vantagens de tipo são o segredo para vencer oponentes mais fortes. Cada tipo
 **Exemplo de Bônus**: Se sua carta tem vantagem de **30%**, um ataque de **100** sobe para **130**! Isso pode ignorar defesas altas.
 {% endhint %}
 
-
-
 ## &#x20;📝 Exemplo de Turno Real
 
 Veja como uma rodada é processada pelo bot:
 
 {% stepper %}
 {% step %}
-Alice (🔥 Fogo) vs Bob (❄️ Gelo) Alice ataca com **Dragão (100 ATK)**. Como Fogo vence Gelo, Alice ganha **+30% de bônus**.
+Alice (🔥 Fogo) vs Bob (❄️ Gelo)&#x20;
+
+Alice ataca com **Dragão (100 ATK)**. Como Fogo vence Gelo, Alice ganha **+30% de bônus**.
 
 * **ATK Final Alice**: 130
 {% endstep %}
