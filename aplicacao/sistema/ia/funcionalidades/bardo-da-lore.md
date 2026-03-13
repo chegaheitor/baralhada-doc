@@ -1,0 +1,2 @@
+# Bardo da Lore
+
