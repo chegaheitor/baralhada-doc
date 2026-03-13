@@ -54,7 +54,7 @@ O bot precisa de um motor para "pensar". Você tem duas opções para alimentar 
 
 ***
 
-### 📜 Funcionalidades e Módulos da IA
+## 📜 Funcionalidades e Módulos da IA
 
 Agora que você já tem o motor ligado, é só ativar as atrações do parque! O Baralhada possui módulos específicos onde a Inteligência Artificial brilha forte.
 
@@ -62,30 +62,20 @@ Para ativar e configurar os _"Prompts"_ (Instruções de Personalidade) de cada 
 
 Navegue abaixo para entender como cada módulo mágico funciona e pegar dicas de Prompts incríveis:
 
-* 🎭 **Apresentação Rara:** As cartas falam! Sinta a força das lendas quando elas droparem. Leia Mais
-* ⚔️ **Grito de Guerra:** Antes do sangue rolar nos duelos, os combatentes provocam e o locutor hypa a batalha. Leia Mais
-* 📰 **Jornalista Fofoqueiro:** O noticiário marrom da sua live que expõe os gastões e ricalços da sessão. Leia Mais
-* 🎵 **Bardo de Lore:** Um contador clássico de histórias de RPG na fogueira para o comando `!lore`. Leia Mais
-* ⚖️ **Mediador de Trocas:** Deixe a IA julgar de forma sarcástica quem saiu perdendo numa troca de cartas. Leia Mais
+* 🎭 [**Apresentação de Carta**](funcionalidades/apresentacao-de-carta.md)**:** As cartas falam! Sinta a força delas quando elas droparem do pacote.&#x20;
+* 🗣️ [**Comando !fala**](funcionalidades/comando-fala.md)**:** Permite que os jogadores conversem diretamente com suas próprias cartas.
+* 🧠 [**Assistente de Criação**](funcionalidades/assistente-de-criacao.md)**:** A varinha mágica que rascunha lores e nomes diretamente na criação das cartas.
+* 😈 [**Cobrador Sarcástico**](funcionalidades/cobrador-sarcastico.md)**:** Um banqueiro maldoso que tira sarro de quem chora por perder pontos em apostas.
+* 🧥 [**Espião Secreto**](funcionalidades/espiao-secreto.md)**:** O informante que vende charadas misteriosas sobre quais cartas faltam para o seu álbum.&#x20;
+* ⚔️ [**Grito de Guerra**](funcionalidades/grito-de-guerra.md)**:** Antes do sangue rolar nos duelos, os combatentes provocam e o locutor hypa a batalha.&#x20;
+* 📰 [**Jornalista Fofoqueiro**](funcionalidades/jornalista-fofoqueiro.md)**:** O noticiário fofoqueiro da sua live que expõe os gastões e todas as brigas da sessão.&#x20;
+* 🎵 [**Bardo de Lore**](funcionalidades/bardo-da-lore.md)**:** Um contador clássico de histórias de RPG na fogueira.
+* ⚖️ [**Mediador de Trocas**](funcionalidades/mediador-de-trocas.md)**:** Deixe a IA julgar de forma sarcástica quem saiu perdendo numa troca de cartas.
 
 ***
 
-### 🛡️ Dicas de Segurança e Estabilidade
+## 🛡️ Dicas de Segurança e Estabilidade
 
 1. **A Regra dos Limites:** Lembre-se, o chat da Twitch aceita mensagens de até 500 caracteres. Nós configuramos o bot para tolerar e "fatiar" respostas da IA em até 4 mensagens consecutivas. **Sempre ordene no seu Prompt para que a Inteligência seja breve!** Se ela discursar demais e passar disso, o bot cortará a história.
-2. **Sempre haverá erro:** IAs demoram pra responder, ficam confusas ou serviços caem. Relaxa, o bot possui `try-catch` em tudo; se a sua internet falhar e ela não gerar o Grito de Guerra, o bot prossegue normalmente com a conta do Duelo com uma mensagem de que o "Narrador está sem voz". O jogo não para.
+2. **Sempre haverá erro:** IAs demoram pra responder, ficam confusas ou serviços caem. Relaxa, o bot possui `try-catch` em tudo; se a sua internet falhar e ela não gerar a mensagem, o bot prossegue normalmente com a funcionalidade. Exemplo: Caso o bot não gere o Grito de Guerra de cada carta, o duelo acontece do mesmo jeito, manual e sem a IA
 3. **Não sabe o que colocar no prompt?** Use as recomendações que disponibilizamos nos guias de cada módulo linkados acima! Nós testamos muito eles.
-
-#### 3. Configurando no Painel do Bot
-
-1. No Dashboard do Baralhada, vá em **Sistema > IA**.
-2. Ative a chave **IA Ativada**.
-3. Selecione o provedor **Ollama**.
-4. No campo **Ollama URL**, mantenha o padrão: `http://localhost:11434`.
-5. No campo **Modelo**, digite exatamente: `llama3.2:1b` (ou o modelo que você baixou).
-6. Clique em **Salvar**.
-
-#### 4. Testando a Conexão
-
-1. Clique no botão **Testar**.
-2. Se tudo estiver correto, você verá a IA respondendo no painel em poucos segundos.
