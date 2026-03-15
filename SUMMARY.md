@@ -58,6 +58,7 @@
       * [📰 Jornalista Fofoqueiro](aplicacao/sistema/ia/funcionalidades/jornalista-fofoqueiro.md)
       * [📜 Bardo da Lore](aplicacao/sistema/ia/funcionalidades/bardo-da-lore.md)
       * [⚖️ Mediador de Trocas](aplicacao/sistema/ia/funcionalidades/mediador-de-trocas.md)
+  * [🌐 Link Público](aplicacao/sistema/link-publico.md)
   * [🛠️ Configurações](aplicacao/sistema/configuracoes.md)
   * [🚧 Especificações Técnicas](aplicacao/sistema/especificacoes-tecnicas/README.md)
     * [🏗️ Arquitetura e Conectividade](aplicacao/sistema/especificacoes-tecnicas/arquitetura-e-conectividade.md)
