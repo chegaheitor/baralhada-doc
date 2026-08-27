@@ -1,6 +1,6 @@
 # 🚧 Especificações Técnicas
 
-Esta seção é dedicada ao detalhamento da "engrenagem" que faz o Baralhada Bot funcionar. Aqui, desenvolvedores e usuários avançados podem entender como o sistema gerencia conexões, lida com erros e se comunica com a Twitch.
+Esta seção é dedicada ao detalhamento da "engrenagem" que faz o Baralhada funcionar. Aqui, desenvolvedores e usuários avançados podem entender como o sistema gerencia conexões, lida com erros e se comunica com a Twitch.
 
 ***
 
