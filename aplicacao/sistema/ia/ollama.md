@@ -25,7 +25,7 @@ O Ollama é o motor, mas ele precisa de um "modelo" (o cérebro) para pensar. Re
 5. Teste dando um "Oi!" pelo terminal, se ele responder em português... Sucesso.
 6. Você pode **fechar o terminal**. O ícone do Ollama na bandeja do Windows garante que ele continua funcionando no fundo preparado para o Bot de Cartas.
 
-### 🔗 Conectando no Baralhada Bot
+### 🔗 Conectando no Baralhada
 
 1. No seu Painel de Controle (Dashboard do Bot), vá em **Sistema > IA**.
 2. Ative a chave **IA Ativada**.

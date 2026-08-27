@@ -2,7 +2,7 @@
 
 ## 📺 Overlay e Alertas
 
-O Overlay é o que traz o **Baralhada Bot** visualmente para dentro da sua transmissão. Ele é uma página web transparente que você adiciona como uma **Fonte de Navegador (Browser Source)** no seu software de transmissão (OBS Studio, Streamlabs, etc).
+O Overlay é o que traz o **Baralhada** visualmente para dentro da sua transmissão. Ele é uma página web transparente que você adiciona como uma **Fonte de Navegador (Browser Source)** no seu software de transmissão (OBS Studio, Streamlabs, etc).
 
 ### Funcionamento Técnico
 

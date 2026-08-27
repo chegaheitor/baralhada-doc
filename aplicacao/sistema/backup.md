@@ -38,7 +38,7 @@ Antes de deletar uma coleção inteira, crie um backup manual!
 
 ## ⁉ Por que Fazer Backup?
 
-Todos os dados do Baralhada Bot (cartas, pacotes, usuários, inventários, pontos) ficam armazenados em arquivos locais na sua máquina. **Não há backup automático na nuvem, nem conexão com internet.** Em caso de falha no disco ou reinstalação acidental, os dados podem ser perdidos permanentemente sem um backup.
+Todos os dados do Baralhada (cartas, pacotes, usuários, inventários, pontos) ficam armazenados em arquivos locais na sua máquina. **Não há backup automático na nuvem, nem conexão com internet.** Em caso de falha no disco ou reinstalação acidental, os dados podem ser perdidos permanentemente sem um backup.
 
 ### 🛡️ Prevenção de Perdas
 
@@ -140,7 +140,7 @@ O sistema identifica o registro mais recente (o último a ser gravado) para cada
 
 <summary>🖱️ <strong>Preciso fazer faxina manualmente?</strong></summary>
 
-Não é obrigatório. O **Baralhada Bot** realiza uma faxina automática em todos os arquivos `.db` a cada **1 hora aberto**. O botão manual é útil principalmente após realizar grandes limpezas ou resetar categorias específicas.
+Não é obrigatório. O **Baralhada** realiza uma faxina automática em todos os arquivos `.db` a cada **1 hora aberto**. O botão manual é útil principalmente após realizar grandes limpezas ou resetar categorias específicas.
 
 </details>
 

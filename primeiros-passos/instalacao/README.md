@@ -40,7 +40,7 @@ O programa será instalado e um atalho criado no Desktop.
 {% step %}
 ### Abrir o aplicativo
 
-Abra o **Baralhada Bot** pelo atalho.
+Abra o **Baralhada** pelo atalho.
 {% endstep %}
 {% endstepper %}
 

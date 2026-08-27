@@ -68,7 +68,7 @@ A representação visual do pacote (geralmente uma caixa ou envelope) que aparec
 
 ## 🎲 Chances de Raridade
 
-Diferente de sistemas que sorteiam tudo de uma vez, o Baralhada Bot utiliza o **Método de Cascata** para selecionar a raridade de cada carta que sai no pacote.
+Diferente de sistemas que sorteiam tudo de uma vez, o Baralhada utiliza o **Método de Cascata** para selecionar a raridade de cada carta que sai no pacote.
 
 #### Como funciona:
 

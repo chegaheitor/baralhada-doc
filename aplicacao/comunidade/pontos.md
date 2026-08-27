@@ -2,7 +2,7 @@
 
 ## 💳 O que são os Pontos
 
-Pontos são a base da economia do **Baralhada Bot**. Configure como seus espectadores ganham a moeda do jogo apenas por interagir com sua live.
+Pontos são a base da economia do **Baralhada**. Configure como seus espectadores ganham a moeda do jogo apenas por interagir com sua live.
 
 ## 💸 Configurando o Ganho de Pontos
 
@@ -73,7 +73,7 @@ O nome da moeda é você que decide! Nosso sistema permite que você dê uma ide
 
 ## 🛒 Utilidade dos Pontos (Compra e Venda)
 
-Os pontos são a engrenagem que move a interação no Baralhada Bot.
+Os pontos são a engrenagem que move a interação no Baralhada.
 
 <table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>Compra de Pacotes e Cartas</strong></td><td>A principal forma de obter novas cartas para a coleção através da loja.</td></tr><tr><td><strong>Venda de Itens</strong></td><td>Permite que jogadores convertam seus itens em pontos novamente.</td></tr><tr><td><strong>Ostentação no Ranking</strong></td><td>O saldo de pontos é um dos principais critérios para definir a posição dos jogadores no ranking da live.</td></tr></tbody></table>
 

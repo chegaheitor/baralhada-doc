@@ -12,7 +12,7 @@ Envia uma mensagem no chat com os principais comandos disponíveis e uma breve d
 
 ## 📖 Exemplo de Resposta
 
-> 🃏 Baralhada Bot | Comandos: !claim (pegar spawn) | !open (abrir pacote) | !deck (suas cartas) | !bags (seus pacotes) | !points (seus pontos) | !buy (comprar) | !sell (vender) | !daily (recompensa diária) | !trade @user (trocar)
+> 🃏 Baralhada | Comandos: !claim (pegar spawn) | !open (abrir pacote) | !deck (suas cartas) | !bags (seus pacotes) | !points (seus pontos) | !buy (comprar) | !sell (vender) | !daily (recompensa diária) | !trade @user (trocar)
 
 
 

@@ -44,4 +44,4 @@ _No chat:_ `User1: !lore Escudo de Prata` _(A IA pesquisa os dados de Escudo de 
 
 ## 💡 Dicas de Uso
 
-* **Respostas Longas vs Curtas:** Tome cuidado! Como a IA às vezes se empolga contando histórias, os contos podem ultrapassar facilmente os 500 caracteres, ou seja, o bot enviará o texto em várias mensagens segmentadas, inundando o chat. Mantenha o seu prompt pedindo **"textos de no máximo 2 parágrafos e super curtos"** se quiser evitar span.
+* **Respostas Longas vs Curtas:** Tome cuidado! Como a IA às vezes se empolga contando histórias, os contos podem ultrapassar facilmente os 500 caracteres, ou seja, o bot enviará o texto em várias mensagens segmentadas, inundando o chat. Mantenha o seu prompt pedindo **"textos de no máximo 2 parágrafos e super curtos"** se quiser evitar spam.

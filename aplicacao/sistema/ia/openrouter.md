@@ -21,7 +21,7 @@ A maior desvantagem: Os modelos gratuitos podem esgotar rapidamente e ter fila d
 5. Dê um nome para a chave (Ex: `BaralhadaBot`) e clique em **Create**.
 6. **COPIE A CHAVE QUE APARECERÁ NA TELA!** (Ela começa com `sk-or-v1-`). _Atenção: Você não conseguirá ver essa chave inteira novamente. Se perder, terá que deletá-la e criar outra._
 
-#### 2. Conectando no Baralhada Bot
+#### 2. Conectando no Baralhada
 
 1. No seu Painel de Controle (Dashboard do Bot), vá em **Sistema > IA**.
 2. Ative a chave **IA Ativada**.

@@ -2,7 +2,7 @@
 
 ## 🧠´O Problema
 
-O Baralhada Bot permite que tanto cartas quanto pacotes tenham nomes semelhantes. Quando um comando como `!comprar` ou `!vender` é usado com um nome que corresponde **tanto a uma carta quanto a um pacote**, o bot não sabe qual você quer e precisa perguntar.
+O Baralhada permite que tanto cartas quanto pacotes tenham nomes semelhantes. Quando um comando como `!comprar` ou `!vender` é usado com um nome que corresponde **tanto a uma carta quanto a um pacote**, o bot não sabe qual você quer e precisa perguntar.
 
 ## Como Funciona
 
