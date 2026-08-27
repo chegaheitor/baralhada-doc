@@ -91,4 +91,4 @@ Se aceito, os itens são trocados automaticamente
 
 ## Banco de Dados
 
-O Baralhada Bot usa **NeDB** — um banco de dados embutido que armazena tudo em arquivos locais na pasta de dados do seu sistema (`AppData/Roaming/baralhada-bot` no Windows). Nenhum dado é enviado para servidores externos.
+O Baralhada usa **NeDB** — um banco de dados embutido que armazena tudo em arquivos locais na pasta de dados do seu sistema (`AppData/Roaming/baralhada-bot` no Windows). Nenhum dado é enviado para servidores externos.

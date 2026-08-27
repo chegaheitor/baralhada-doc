@@ -1,10 +1,10 @@
 # 🧠 IA
 
-Bem-vindo ao módulo de Inteligência Artificial do Baralhada Bot! Transforme o seu chat da Twitch em uma experiência viva, narrativa e cheia de fofoca.
+Bem-vindo ao módulo de Inteligência Artificial do Baralhada! Transforme o seu chat da Twitch em uma experiência viva, narrativa e cheia de fofoca.
 
 ## 🤖 O que é a Integração de IA do Bot?
 
-Diferente de comandos tradicionais que sempre respondem a mesma frase gravada, o **Baralhada Bot** possui integração com Modelos de Linguagem Grande (LLMs, como o ChatGPT).
+Diferente de comandos tradicionais que sempre respondem a mesma frase gravada, o **Baralhada** possui integração com Modelos de Linguagem Grande (LLMs, como o ChatGPT).
 
 Isso significa que o bot "ganha vida". Quando um evento importante acontece (uma carta é ganhada, um duelo épico), o bot não apenas anuncia o fato; ele **cria uma narrativa única na hora** baseada no contexto do que aconteceu. Ele lê os atributos da carta, a situação do jogador, mistura tudo com as regras que você definiu, e gera uma mensagem que nunca será idêntica duas vezes.
 
@@ -17,8 +17,6 @@ Para usar a IA, o bot age como um intermediário. O fluxo é simples:
 ### Gatilho
 
 Alguém digita um comando ou ganha um prêmio no chat.
-
-
 {% endstep %}
 
 {% step %}

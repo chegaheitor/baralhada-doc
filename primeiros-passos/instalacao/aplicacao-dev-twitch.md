@@ -27,7 +27,7 @@ Vá para [Twitch Dev Console](https://dev.twitch.tv/console/apps) e faça login 
 
     > \[!WARNING] O **Client Secret** só aparece UMA VEZ. Copie-o e guarde em um lugar seguro imediatamente! Se você sair da página sem copiar, terá que gerar um novo.
 
-### 4. Configure no Baralhada Bot
+### 4. Configure no Baralhada
 
 Agora, abra o painel administrativo do seu bot:
 

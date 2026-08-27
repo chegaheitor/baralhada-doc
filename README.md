@@ -1,12 +1,12 @@
 # 👋 Introdução
 
 {% hint style="success" %}
-Bem-vindo à documentação oficial do **Baralhada Bot**! Este é o guia completo para transformar sua stream em um verdadeiro ecossistema de TCG (Trading Card Game) interativo na Twitch.
+Bem-vindo à documentação oficial do **Baralhada**! Este é o guia completo para transformar sua stream em um verdadeiro ecossistema de TCG (Trading Card Game) interativo na Twitch.
 {% endhint %}
 
-## 🃏 O que é o Baralhada Bot?
+## 🃏 O que é o Baralhada?
 
-**Baralhada Bot** é um bot de TCG (Trading Card Game) feito para Twitch. Com ele, o streamer transforma o chat da live em um jogo de coleção de cartas, onde os espectadores:
+**Baralhada** é um bot de TCG (Trading Card Game) feito para Twitch. Com ele, o streamer transforma o chat da live em um jogo de coleção de cartas, onde os espectadores:
 
 <table data-view="cards" data-full-width="false"><thead><tr><th></th></tr></thead><tbody><tr><td>Coletam pacotes que aparecem como spawns durante a live</td></tr><tr><td>Ganham cartas aleatórias ao abrirem pacotes baseadas em raridades</td></tr><tr><td>Compram e vendem cartas e pacotes com pontos de economia</td></tr><tr><td>Interagem entre si realizando trocas e enviando presentes</td></tr><tr><td>Completam álbuns e missões para ganhar recompensas</td></tr><tr><td>Ganham XP e sobem de nível participando da live</td></tr></tbody></table>
 

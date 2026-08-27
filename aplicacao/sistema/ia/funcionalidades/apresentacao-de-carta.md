@@ -40,7 +40,7 @@ Se você não souber o que colocar, use este modelo:
 ### Exemplo do Chat (O que a IA vai gerar e dizer)
 
 No chat: Pipoqueiro\_BR usou !abrir.\
-&#xNAN;_(A imagem da carta rara "Dragão do Caos" aparece na live. Após 2 segundos, o Bot digita no chat:)_
+_(A imagem da carta rara "Dragão do Caos" aparece na live. Após 2 segundos, o Bot digita no chat:)_
 
 > "🔥 Grrr... Finalmente, o selo foi quebrado! Você é o tal do {Pipoqueiro\_BR}? Pensei que quem me invocaria seria alguém maior. Mas tudo bem, meu poder destrutivo de {8000} ATK agora está a seu dispor. Prepare-se, porque a Coleção {Chamas Antigas} acaba de ficar pequena para nós dois. Sou o Dragão do Caos, vamos incendiar isso tudo!"
 

@@ -17,7 +17,7 @@ Vá para o site [TWITCHTOKENGENERATOR.COM](https://twitchtokengenerator.com/).
 
 ### 3. Configure as Permissões (Scopes)
 
-Para o Baralhada Bot funcionar, você **DEVE** selecionar os seguintes itens (scopes):
+Para o Baralhada funcionar, você **DEVE** selecionar os seguintes itens (scopes):
 
 #### ✅ OBRIGATÓRIOS (Sem eles o bot não funciona):
 
@@ -52,7 +52,7 @@ Para o Baralhada Bot funcionar, você **DEVE** selecionar os seguintes itens (sc
 **\[IMPORTANTE]** Nunca mostre este token em live ou para outras pessoas! Ele dá acesso total ao chat do seu canal. Se vazar, gere um novo imediatamente no site e atualize no bot.
 {% endhint %}
 
-### 6. Configure no Baralhada Bot
+### 6. Configure no Baralhada
 
 1. Abra o painel administrativo do bot.
 2. Vá em **Configurações** > **Twitch e Conexão**.
