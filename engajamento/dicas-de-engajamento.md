@@ -7,8 +7,8 @@ Nesta seção, exploramos como as diferentes ferramentas do bot podem ser usadas
 ### 🎯 Por que focar em Engajamento?
 
 * **Retenção:** Espectadores que têm algo para colecionar tendem a ficar mais tempo na live esperando o próximo spawn ou acumulando pontos por tempo.
-* **Interatividade:** Comandos de troca (`!trocar`) e resgate incentivam o uso do chat.
-* **Comunidade:** O sistema de conquistas e rankings cria uma sensação de progressão compartilhada.
+* **Interatividade:** Incentive seus viewers a interagir no chat entre eles e com você, mantendo a sua live viva.
+* **Comunidade:** O sistema de conquistas e rankings cria uma sensação de progressão compartilhada, fazendo com que cada carta tenha valor.
 
 {% hint style="info" %}
 Não dê tudo de uma vez. Comece com cartas comuns e poucos pontos, e vá liberando pacotes especiais em momentos de pico da live ou durante eventos planejados.

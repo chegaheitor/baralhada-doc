@@ -1,6 +1,6 @@
 # 💡 Estratégias
 
-O Baralhada Bot não é apenas um sistema de cartas; é uma ferramenta de **retenção** e **entretenimento**. Abaixo, reunimos algumas estratégias usadas por streamers de sucesso para manter o chat ativo e a comunidade engajada.
+O Baralhada não é apenas um sistema de cartas,é uma ferramenta de **retenção** e **entretenimento**. Abaixo, reunimos algumas estratégias que você pode usar para manter o chat ativo e a comunidade engajada.
 
 ***
 
@@ -11,7 +11,7 @@ O Baralhada Bot não é apenas um sistema de cartas; é uma ferramenta de **rete
 Quando você receber um raid, em vez de apenas agradecer, dispare um evento especial:
 
 * **Ação:** Use o comando `!spawnpack <id_pacote_raro>` manualmente.
-* **Impacto:** Os novos espectadores entram na live já com um objetivo imediato (resgatar o pacote). Isso aumenta drasticamente a chance de eles dareem o "Follow".
+* **Impacto:** Os novos espectadores entram na live já com um objetivo imediato (resgatar o pacote). Isso aumenta drasticamente a chance de eles darem follow.
 
 #### 🏆 Sub-Goals com Recompensas Digitais
 
@@ -72,7 +72,7 @@ Se os usuários estiverem com muitos pontos, crie um "Sumidouro de Pontos":
 ### 🛠️ 5. Dicas de Ouro para o Streamer
 
 1. **Chame pelo Nome:** Quando alguém conseguir uma carta Lendária, o bot avisará no chat. Leia o nome da pessoa em voz alta! O reconhecimento público é o maior motivador.
-2. **Não tenha medo de "Dar":** Use o `!dar` para premiar quem participa de conversas interessantes, quem ajuda novos usuários ou quem faz um comentário engraçado.
+2. **Não tenha medo de distribuir:** Use o `!dar` para premiar quem participa de conversas interessantes, quem ajuda novos usuários ou quem faz um comentário engraçado.
 
 {% hint style="info" %}
 O segredo do engajamento está na **narrativa**. Não diga apenas "tem cartas no chat". Diga "O Dragão Ancestral acabou de aparecer na live! Quem vai ser rápido o suficiente para domá-lo?".

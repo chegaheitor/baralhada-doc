@@ -1,6 +1,6 @@
 # 💵 Economia Avançada
 
-Uma economia saudável é o coração do Baralhada Bot. Se os pontos forem abundantes demais, as cartas perdem o valor; se forem escassos demais, o chat desiste de participar.
+Uma economia saudável é o coração do Baralhada. Se os pontos forem abundantes demais, as cartas perdem o valor; se forem escassos demais, o chat desiste de participar.
 
 Abaixo, exploramos como equilibrar o sistema para garantir diversão a longo prazo.
 

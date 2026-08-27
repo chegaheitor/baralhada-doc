@@ -1,6 +1,6 @@
 # 📅 Eventos Sazonais
 
-Manter o Baralhada Bot sempre igual pode gerar monotonia. Os eventos sazonais são a melhor forma de **renovar o interesse** da comunidade e criar picos de audiência e participação.
+Manter o Baralhada sempre igual pode gerar monotonia. Os eventos sazonais são a melhor forma de **renovar o interesse** da comunidade e criar picos de audiência e participação.
 
 ***
 
@@ -28,14 +28,7 @@ Combine os eventos com o Sistema de Missões:
 * **Exemplo (Aniversário):** "Abra 10 pacotes hoje para ganhar 5.000 pontos de bônus".
 * **Impacto:** Dá um propósito claro para as interações do dia.
 
-### 🎨 4. Customização Visual (Overlay)
-
-Mude o "clima" da live durante o evento:
-
-* **Ação:** Se você tem conhecimentos básicos de CSS, pode alterar as cores ou adicionar "neve" ou "teias de aranha" no seu Overlay.
-* **Impacto:** Mostra para o público que a live está em um momento especial e único.
-
-### 🚀 5. Scripts de Live para Eventos
+### 🚀 4. Scripts de Live para Eventos
 
 Prepare o que você vai dizer:
 
