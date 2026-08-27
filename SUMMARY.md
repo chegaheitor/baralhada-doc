@@ -3,6 +3,7 @@
 ## Baralhada
 
 * [👋 Introdução](README.md)
+* [🌐 Onde nos encontrar](baralhada/onde-nos-encontrar.md)
 * [📖 Como funciona](baralhada/como-funciona.md)
 * [⁉️ FAQ](baralhada/faq.md)
 
