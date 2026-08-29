@@ -16,7 +16,7 @@ Ao rodar na nuvem do Google, ela **não consome absolutamente nenhum recurso do 
 2. Faça login com a sua conta do Google.
 3. Clique em **Create API key** (Criar Chave de API).
 4. Selecione ou crie um projeto do Google Cloud e confirme.
-5. **Copie a chave gerada** (começa com `AIzaSy...`).
+5. **Copie a chave gerada** (Geralmente começa com `AQ...` ou `AIzaSy...`).
 
 {% hint style="info" %}
 _Dica: Você sempre poderá rever ou copiar essa chave novamente no mesmo painel do AI Studio._
