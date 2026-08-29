@@ -4,13 +4,17 @@ O Ollama é a sua ponte para usar modelos de linguagem de Inteligência Artifici
 
 ## 🚀 Passo a Passo de Instalação Básica
 
-### 🤖 Obtendo o Motor (Ollama)
+{% stepper %}
+{% step %}
+### Obtendo o Motor (Ollama)
 
 1. Acesse [ollama.com](https://ollama.com) e baixe a versão para o seu sistema operacional (Windows/Mac/Linux).
 2. Siga o instalador padrão ("Next, Next, Finish").
 3. Após instalado, um pequeno ícone em formato de Lhama aparecerá na sua bandeja do sistema (perto do relógio do Windows). Isso significa que o servidor está pronto.
+{% endstep %}
 
-### 🧠´Escolhendo e Baixando o Seu "Cérebro"
+{% step %}
+### Escolhendo e Baixando o Seu "Cérebro"
 
 O Ollama é o motor, mas ele precisa de um "modelo" (o cérebro) para pensar. Recomendamos a versão super rápida e leve da Meta, o Llama 3.2.
 
@@ -24,8 +28,10 @@ O Ollama é o motor, mas ele precisa de um "modelo" (o cérebro) para pensar. Re
 4. Quando aparecer a palavra `>>> Send a message (/? for help)` e piscar um cursor no terminal, quer dizer que o cérebro baixou e ligou!
 5. Teste dando um "Oi!" pelo terminal, se ele responder em português... Sucesso.
 6. Você pode **fechar o terminal**. O ícone do Ollama na bandeja do Windows garante que ele continua funcionando no fundo preparado para o Bot de Cartas.
+{% endstep %}
 
-### 🔗 Conectando no Baralhada
+{% step %}
+### Conectando no Baralhada
 
 1. No seu Painel de Controle (Dashboard do Bot), vá em **Sistema > IA**.
 2. Ative a chave **IA Ativada**.
@@ -33,6 +39,8 @@ O Ollama é o motor, mas ele precisa de um "modelo" (o cérebro) para pensar. Re
 4. No campo **Ollama URL**, não mude, mantenha: [`http://127.0.0.1:11434`](http://127.0.0.1:11434)
 5. No campo **Modelo (Ex: llama3.2:1b)**, digite ESPECIFICAMENTE o modelo que você acabou de baixar no Passo 2. Exemplos: `llama3.2:1b` ou `mistral`.
 6. Salve e clique em **Testar**. Ele deverá te retornar uma saudação robótica no painel vermelho.
+{% endstep %}
+{% endstepper %}
 
 ***
 

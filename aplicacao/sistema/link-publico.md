@@ -75,16 +75,16 @@ O processo é 100% automatizado, sem necessidade de cadastros externos, sem abri
 {% step %}
 #### Compartilhar com a Live
 
-* Clique no link gerado para copiá-lo para a área de transferência.
-* Clique em **"Testar Link no Navegador"** para conferir o visual antes de divulgar.
-* Envie o link no chat da Twitch ou fixe nos comandos/painéis do seu canal.
+1. Clique no link gerado para copiá-lo para a área de transferência.
+2. Clique em **"Testar Link no Navegador"** para conferir o visual antes de divulgar.
+3. Envie o link no chat da Twitch ou fixe nos comandos/painéis do seu canal.
 {% endstep %}
 
 {% step %}
 #### Desligar o Túnel
 
-* Quando encerrar a live, basta clicar no botão vermelho **"Desligar e Fechar Conexão"**.
-* O link se tornará inacessível imediatamente, encerrando qualquer conexão externa.
+1. Quando encerrar a live, basta clicar no botão vermelho **"Desligar e Fechar Conexão"**.
+2. O link se tornará inacessível imediatamente, encerrando qualquer conexão externa.
 {% endstep %}
 {% endstepper %}
 

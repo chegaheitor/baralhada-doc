@@ -12,7 +12,9 @@ A maior desvantagem: Os modelos gratuitos podem esgotar rapidamente e ter fila d
 
 ## 🚀 Passo a Passo de Instalação
 
-#### 1. Criando a Conta e a Chave API
+{% stepper %}
+{% step %}
+### Criando a Conta e a Chave API
 
 1. Acesse [openrouter.ai](https://openrouter.ai).
 2. Clique em **Sign In** ou **Sign Up** e faça login (pode usar sua conta do Google, Discord, etc).
@@ -20,8 +22,10 @@ A maior desvantagem: Os modelos gratuitos podem esgotar rapidamente e ter fila d
 4. Clique no botão **Create Key**.
 5. Dê um nome para a chave (Ex: `BaralhadaBot`) e clique em **Create**.
 6. **COPIE A CHAVE QUE APARECERÁ NA TELA!** (Ela começa com `sk-or-v1-`). _Atenção: Você não conseguirá ver essa chave inteira novamente. Se perder, terá que deletá-la e criar outra._
+{% endstep %}
 
-#### 2. Conectando no Baralhada
+{% step %}
+### Conectando no Baralhada
 
 1. No seu Painel de Controle (Dashboard do Bot), vá em **Sistema > IA**.
 2. Ative a chave **IA Ativada**.
@@ -29,6 +33,8 @@ A maior desvantagem: Os modelos gratuitos podem esgotar rapidamente e ter fila d
 4. No campo **OpenRouter Chave (API Key)**, cole aquela chave secreta que você copiou no Passo 1.
 5. No campo **Modelo**, você precisará digitar exatamente o código oficial do modelo que quer usar (veja as recomendações abaixo).
 6. Salve e clique em **Testar**. Ele deverá te retornar uma saudação no painel vermelho.
+{% endstep %}
+{% endstepper %}
 
 ***
 
