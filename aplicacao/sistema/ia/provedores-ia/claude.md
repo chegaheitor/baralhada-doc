@@ -63,11 +63,15 @@ A Anthropic possui 3 famílias principais de modelos. Para uso em chats de Twitc
 
 ### ⚠️ Solução de Problemas Comuns
 
-1. **"Erro 401 Unauthorized" / Chave Recusada:**
+1. **"anthropic-workspace-id is required when authenticating with an identity-linked API key":**
+   * **O que significa:** A sua chave de API foi gerada no perfil pessoal/identidade da conta, em vez de ser gerada diretamente dentro de um Workspace da Anthropic.
+   * **Como resolver (Opção 1 - Recomendada):** Acesse `console.anthropic.com`, selecione seu Workspace no menu (ex: "Default") e gere a chave dentro da aba **API Keys desse Workspace**. Chaves criadas dentro do Workspace funcionam direto sem precisar de Workspace ID.
+   * **Como resolver (Opção 2):** Acesse `console.anthropic.com/settings/workspaces`, copie o ID do seu Workspace (ou pegue o código na URL do seu navegador após `/workspaces/`) e cole no campo **Anthropic Workspace ID** no painel do Baralhada Bot.
+2. **"Erro 401 Unauthorized" / Chave Recusada:**
    * A sua chave `sk-ant-api03-...` foi copiada com espaços extras ou está incorreta. Acesse `console.anthropic.com/settings/keys` e gere uma nova chave.
-2. **"Erro 429 - Credit Balance is too low" / Saldo Insuficiente:**
+3. **"Erro 429 - Credit Balance is too low" / Saldo Insuficiente:**
    * Sua conta está sem saldo pré-pago no console da Anthropic. Vá em `console.anthropic.com/settings/plans` e adicione créditos para ativar a API.
-3. **Demora na Resposta ou Timeout:**
+4. **Demora na Resposta ou Timeout:**
    * O modelo `claude-3-5-sonnet` pode levar alguns segundos adicionais para gerar lores longas. Mantenha o **Timeout** em 30 ou 45 segundos no painel.
-4. **Regras de Moderação e Linguagem:**
+5. **Regras de Moderação e Linguagem:**
    * O Claude possui diretrizes de segurança éticas sólidas. Em provocações de duelo (`!atacar`), certifique-se de que o prompt instrua o bot a focar em _humor, rivalidade esportiva e RPG_, evitando termos ofensivos reais.

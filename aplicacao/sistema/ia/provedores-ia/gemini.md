@@ -61,9 +61,13 @@ O Google AI Studio disponibiliza modelos com limites gratuitos generosos (geralm
 
 ### ⚠️ Solução de Problemas Comuns
 
-1. **"Erro 400 / 403 API Key Invalid" / Chave Recusada:**
+1. **"models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent":**
+   * **Causa 1 (Chave incompatível - Chaves `AQ...`):** Esse erro ocorre quando a chave foi gerada no Google Cloud Console / Vertex AI sem a biblioteca **"Generative Language API"** ativada no projeto.
+     * **Como resolver:** Obtenha sua chave diretamente pelo **Google AI Studio** em [aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey). A chave oficial do AI Studio começa com o prefixo **`AIzaSy...`** e já vem com permissão total para os modelos Gemini.
+   * **Causa 2 (Prefixo `models/` no nome):** Se você digitou `models/gemini-1.5-flash` no campo de modelo, mude para apenas **`gemini-1.5-flash`** (ou simplesmente clique no chip de sugestão rápida no painel).
+2. **"Erro 400 / 403 API Key Invalid" / Chave Recusada:**
    * A sua chave `AIzaSy...` foi colada com caracteres faltando ou o projeto no Google Cloud ainda está inicializando. Aguarde 30 segundos ou gere uma nova chave em [aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey).
-2. **"O Gemini não retornou nenhum texto (bloqueado por filtros de segurança)":**
+3. **"O Gemini não retornou nenhum texto (bloqueado por filtros de segurança)":**
    * O Google possui filtros de segurança padrão rígidos para termos de ódio ou assédio. Se o bot gerou uma resposta muito agressiva em um duelo, suavize a instrução no prompt para que a provocação seja esportiva ou engraçada.
-3. **Mensagem cortada no chat da Twitch:**
+4. **Mensagem cortada no chat da Twitch:**
    * O Gemini gosta de escrever de forma rica e completa. Para garantir que ele nunca exceda o limite de caracteres da Twitch, inclua no prompt do painel: _"Responda em no máximo 2 frases curtas"_.
