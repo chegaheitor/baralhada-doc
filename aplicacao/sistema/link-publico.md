@@ -1,43 +1,126 @@
 # 🌐 Link Público
 
-O **Link Público** é uma funcionalidade que permite que os espectadores da sua live acessem uma página web estilizada e luxuosa para interagir com o bot sem precisar spammar o chat da Twitch.&#x20;
+O **Link Público** é uma funcionalidade que permite que os espectadores da sua live acessem um portal web moderno interativo para explorar todo o ecossistema de cartas da sua stream sem precisar sobrecarregar o chat da Twitch com comandos de texto
 
-Para que isso seja 100% seguro (e eles não tenham acesso ao seu painel interno de administrador), nós usamos uma ferramenta profissional da indústria chamada **Ngrok**.
-
-O Ngrok funciona criando um "túnel" seguro, blindado e restrito entre o seu computador e a internet, usando um endereço permanente grátis oferecido por eles. **Os viewers jamais saberão o seu endereço de internet real (IP)**.
+Para garantir segurança total (sem expor seu IP ou dar acesso ao painel de administração), o sistema utiliza a infraestrutura global da **Cloudflare** (via **Cloudflare Quick Tunnels**).
 
 ***
 
-### Como Configurar seu Link Público Gratuito
+### 🚀 O que é o Link Público?
 
-O Ngrok exige uma conta rápida gratuita, mas em troca oferece excelentes benefícios: **sem tela de senha chata, HTTPS rápido para imagens e 1 domínio permanente de graça!** Siga os passos:
+Quando você ativa o Link Público, o bot cria um endereço web seguro com HTTPS (no formato `https://*.trycloudflare.com`) que aponta diretamente para um **portal exclusivo somente-leitura** hospedado na sua própria máquina.
+
+Seus viewers podem abrir o link no computador ou celular e navegar pelas coleções, mercado e ranking em tempo real.
+
+{% hint style="success" %}
+**100% Blindado e Seguro:** O Link Público roda em um servidor Express isolado (porta `3001`). Seus espectadores **jamais** terão acesso ao painel de administração, tokens, senhas ou configurações internas.
+{% endhint %}
+
+***
+
+### 📱 Páginas e Recursos Disponíveis para os Viewers
+
+O portal público conta com diversas páginas completas e responsivas:
+
+| Página                                        | O que o Viewer encontra?                                                                                                                           |
+| --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **🏠 Início (`index.html`)**                  | Estatísticas da stream em tempo real: total de cartas criadas, pacotes disponíveis, itens no mercado e jogadores ativos.                           |
+| **🃏 CartaDex (`cartadex.html`)**             | A enciclopédia completa de cartas do canal. Permite filtrar por tipo, raridade, pacote e buscar cartas específicas.                                |
+| **🏪 Marketplace (`marketplace.html`)**       | Vitrine ao vivo com todos os anúncios de cartas e pacotes colocados à venda pelos próprios viewers pelo chat. Exibe ID da venda, vendedor e valor. |
+| **🛍️ Loja Rotativa (`loja.html`)**           | Itens especiais vendidos pelo próprio bot com tempo limite e contador regressivo até a próxima rotação.                                            |
+| **👥 Jogadores (`usuarios.html`)**            | Lista da comunidade e ranking de colecionadores com nível, XP, pontos e foto de perfil da Twitch.                                                  |
+| **👤 Perfil do Colecionador (`perfil.html`)** | Página personalizada do viewer com seu inventário, progresso dos álbuns (cartas obtidas vs faltantes), conquistas e missões.                       |
+
+***
+
+### ⚡ Como Funciona a Conexão (Cloudflare)
+
+O processo é 100% automatizado, sem necessidade de cadastros externos, sem abrir portas no roteador e sem configurar firewall:
+
+{% code overflow="wrap" %}
+```
+[ Viewers na Web / Celular ]
+            │
+            ▼ (HTTPS Seguro)
+[ Infraestrutura Cloudflare ]
+            │
+            ▼ (Túnel Criptografado)
+[ Servidor Público Local (Porta 3001) ]  ←─── Totalmente isolado do Painel Admin (Porta 3000)
+```
+{% endcode %}
+
+#### Por que Cloudflare Tunnels?
+
+* **Sem necessidade de conta:** Não exige cadastro, login ou criação de tokens manuais.
+* **Sem telas de aviso chatas:** Os viewers entram direto na página sem bloqueios de intermediários.
+* **Privacidade total:** Seu endereço IP real fica totalmente oculto.
+* **HTTPS nativo:** Conexão rápida com certificado SSL automático.
+* **Link dinâmico e seguro:** O link muda a cada ativação, protegendo sua live contra bots e ataques automatizados.
+
+***
+
+### 🛠️ Como Ativar e Usar no Painel
 
 {% stepper %}
 {% step %}
-### &#x20;Criando a Conta no Ngrok
+#### Ativar o Link Público
 
-Acesse o site oficial: [https://dashboard.ngrok.com/signup](https://dashboard.ngrok.com/signup) e cadastre-se gratuitamente
+1. No aplicativo do **Baralhada**, acesse o menu lateral esquerdo.
+2. Na seção **Sistema**, clique em **Link Público** (ícone de globo 🌐).
+3. Clique no botão azul **"Gerar e Ligar Link Seguro"**.
+4. Aguarde alguns segundos enquanto o túnel Cloudflare é estabelecido.
+5. Pronto! O status mudará para **"Túnel Online"** e o link seguro será exibido.
 {% endstep %}
 
 {% step %}
-### Pegando seu Token de Autenticação (Authtoken)
+#### Compartilhar com a Live
 
-Procure no menu lateral esquerdo por **Identity & Access -> Authtokens** e crie o seu Token (Ou na página principal procure por "Your Authtoken" para utilizar o padrão).&#x20;
-
-{% hint style="info" %}
-&#x20;Ao criar o TOKEN será informado apenas uma vez, salve ele antes de fechar a tela de confirmação. Senão terá que criar novamente.
-{% endhint %}
+* Clique no link gerado para copiá-lo para a área de transferência.
+* Clique em **"Testar Link no Navegador"** para conferir o visual antes de divulgar.
+* Envie o link no chat da Twitch ou fixe nos comandos/painéis do seu canal.
 {% endstep %}
 
 {% step %}
-### Criando seu Domínio Fixo Gratuito
+#### Desligar o Túnel
 
-No menu da esquerda, clique em **UniverseGateway -> Domains** e crie seu novo domínio no botão _**New Domain**_
-{% endstep %}
-
-{% step %}
-### Ligando o Túnel
-
-No painel de **Link Público**, cole o Token e o domínio nos campos de configuração
+* Quando encerrar a live, basta clicar no botão vermelho **"Desligar e Fechar Conexão"**.
+* O link se tornará inacessível imediatamente, encerrando qualquer conexão externa.
 {% endstep %}
 {% endstepper %}
+
+***
+
+### 🤖 Integração Automática com o Chat da Twitch
+
+Quando o túnel estiver ativo, o bot no chat responderá automaticamente com o link do site:
+
+| Comando no Chat              | Resposta do Bot                                    |
+| ---------------------------- | -------------------------------------------------- |
+| `!site`                      | Envia a URL da página inicial do portal.           |
+| `!cartadex`                  | Envia o link direto para a enciclopédia de cartas. |
+| `!mercado` ou `!marketplace` | Envia o link direto da vitrine do Marketplace.     |
+| `!usuarios`                  | Envia o link da lista de jogadores da comunidade.  |
+
+{% hint style="info" %}
+Caso o Link Público esteja desligado no painel, o bot responderá no chat avisando educadamente que o site público está desativado no momento.
+{% endhint %}
+
+***
+
+### ⚙️ Configurações Avançadas
+
+#### Alterando a Porta do Servidor Local
+
+Por padrão, o servidor público utiliza a porta **`3001`**. Se você já tiver outro programa ou serviço utilizando essa mesma porta no seu computador:
+
+1. Acesse **Link Público** no menu do bot.
+2. No campo **"Porta do Servidor Local"**, digite uma nova porta (ex: `3005`).
+3. Ligue o túnel. O sistema passará a usar a nova porta automaticamente.
+
+***
+
+### 🔒 Segurança e Boas Práticas
+
+* ✅ **Acesso somente-leitura:** A API do servidor público não permite edições de banco de dados, compras diretas sem validação do chat ou exclusões.
+* ✅ **Compras seguras:** Toda transação financeira (pontos/moedas) continua sendo processada estritamente pelo bot no chat da Twitch através de comandos como `!comprar_marketplace <ID>` ou `!comprar <item>`.
+* ✅ **Isolamento de processos:** Os processos de tunelamento são encerrados automaticamente ao fechar o bot para evitar portas presas no Windows.
