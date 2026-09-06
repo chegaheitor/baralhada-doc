@@ -36,7 +36,9 @@ Arraste o arquivo de backup para a área de restauração para sobrepor os dados
 Antes de deletar uma coleção inteira, crie um backup manual!
 {% endhint %}
 
-## ⁉ Por que Fazer Backup?
+***
+
+## ⁉️ Por que Fazer Backup?
 
 Todos os dados do Baralhada (cartas, pacotes, usuários, inventários, pontos) ficam armazenados em arquivos locais na sua máquina. **Não há backup automático na nuvem, nem conexão com internet.** Em caso de falha no disco ou reinstalação acidental, os dados podem ser perdidos permanentemente sem um backup.
 
@@ -49,7 +51,9 @@ Todos os dados do Baralhada (cartas, pacotes, usuários, inventários, pontos) f
 **Atenção:** Restaurar um backup antigo irá APAGAR qualquer progresso feito entre a data do backup e hoje. Use com cautela extrema.
 {% endhint %}
 
-## Restaurando um Backup
+***
+
+## 🔄️ Restaurando um Backup
 
 {% stepper %}
 {% step %}
@@ -71,6 +75,8 @@ Confirme a ação.
 {% endstep %}
 {% endstepper %}
 
+***
+
 ## 📁 Localização dos Dados
 
 Por padrão, todos os arquivos de banco de dados (`.db`) e backups são armazenados em sua pasta de documentos do Windows:
@@ -80,6 +86,8 @@ Meus Documentos > Baralhada > database
 ```
 
 Você pode fazer backup manualmente copiando esta pasta inteira.
+
+***
 
 ## 🛠️ Categorias de Dados
 
@@ -99,12 +107,16 @@ O sistema organiza os backups em grupos lógicos para facilitar a gestão:
 O **Backup GERAL** é a forma mais segura de migrar o bot entre diferentes computadores ou fazer uma cópia de segurança completa antes de grandes atualizações.
 {% endhint %}
 
+***
+
 ## 🧹 Limpeza de Dados (Reset)
 
 No painel administrativo, cada categoria possui um botão **Limpar**.
 
 * **O que faz?** Apaga todos os registros daquela categoria específica (ex: dar um "wipe" apenas nas cartas dos usuários para começar uma nova temporada).
 * **Segurança:** Esta ação é **irreversível**. O sistema solicitará confirmações múltiplas antes de apagar o arquivo físico.
+
+***
 
 ## ⚡ Otimização do Banco (Faxina)
 

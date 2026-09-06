@@ -47,7 +47,6 @@
   * [💾 Backup](aplicacao/sistema/backup.md)
   * [🖼️ Overlay](aplicacao/sistema/overlay/README.md)
     * [🎨 Personalização de Overlays](aplicacao/sistema/overlay/personalizacao-de-overlays.md)
-    * [⌨️ Códigos Padrão](aplicacao/sistema/overlay/codigos-padrao.md)
     * [📖 Variáveis dos Overlays](aplicacao/sistema/overlay/variaveis-dos-overlays.md)
   * [🧠 IA](aplicacao/sistema/ia/README.md)
     * [🛠️ Funcionalidades](aplicacao/sistema/ia/funcionalidades/README.md)

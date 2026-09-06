@@ -4,7 +4,7 @@ Esta seção é dedicada ao detalhamento da "engrenagem" que faz o Baralhada fun
 
 ***
 
-### 🏗️ O que você encontrará nesta categoria
+## 🏗️ O que você encontrará nesta categoria
 
 A documentação técnica está dividida em três pilares fundamentais:
 
@@ -28,7 +28,7 @@ A documentação técnica está dividida em três pilares fundamentais:
 
 ***
 
-### 🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 Para curiosidade técnica, o Baralhada utiliza um stack moderno e leve:
 

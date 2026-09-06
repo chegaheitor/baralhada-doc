@@ -8,13 +8,17 @@ Este documento foi criado para streamers, desenvolvedores e criadores de conteú
 
 O Baralhada possui um sistema de alertas visuais transmitidos em tempo real para a sua stream através de uma **Fonte de Navegador (Browser Source)** no OBS Studio (`http://localhost:PORTA/#/overlay`).
 
+{% hint style="info" %}
+A porta da fonte de navegador é você que decide em [#porta-do-servidor](../configuracoes.md#porta-do-servidor "mention")
+{% endhint %}
+
 Por padrão, o sistema renderiza componentes com design neo-brutalista moderno. No entanto, se você souber **HTML, CSS e JavaScript**, você tem total liberdade para criar layouts 100% personalizados para cada tipo de evento do jogo.
 
 ***
 
-## 🎨 Como acessar o editor de personalização
+## 🎨 Editor de Personalização
 
-1. No menu lateral do programa, clique em **Configurações de Overlay** (`/overlay-settings`).
+1. No menu lateral do programa, clique em **Configurações de Overlay.**
 2. Localize o card do tipo de overlay que deseja modificar (ex: _Spawn de Pacote_, _Abertura de Pacote_, _Duelo_, etc.).
 3. Clique no botão **"Personalizar"** (ícone de código `</>`).
 4. A janela de personalização será aberta com:
@@ -27,9 +31,9 @@ Por padrão, o sistema renderiza componentes com design neo-brutalista moderno. 
 
 ***
 
-## ⌨️ Programar um overlay
+## ⌨️ Criar Seu Próprio Overlay
 
-Você pode escrever uma página completa com `<style>`, tags HTML e `<script>`. O código é executado de forma isolada e segura, mantendo o fundo transparente.
+Você pode escrever uma página completa com `<style>`, tags HTML e `<script>`. O código é executado de forma isolada e segura, mantendo o fundo transparente. HTML5 + CSS3 + JAVASCRIPT STANDALONE
 
 #### Usando Placeholders no HTML
 
@@ -64,7 +68,9 @@ Exemplo:
 </script>
 ```
 
-## 🔄️ Restaurar para o Padrão
+***
+
+## 🔄️ Restaurar Para o Padrão
 
 Se em algum momento você quiser descartar sua personalização e voltar ao design nativo do sistema:
 

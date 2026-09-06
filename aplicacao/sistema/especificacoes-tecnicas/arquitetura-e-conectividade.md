@@ -2,7 +2,7 @@
 
 O Baralhada é uma aplicação híbrida que combina o poder do **Electron** para a interface desktop com a flexibilidade de um servidor **Node.js/Express** para gerenciar a lógica do bot e a API.
 
-### 🔌 O Servidor Interno
+## 🔌 O Servidor Interno
 
 Ao abrir o aplicativo, um servidor web é iniciado localmente. Este servidor é responsável por:
 
@@ -10,7 +10,7 @@ Ao abrir o aplicativo, um servidor web é iniciado localmente. Este servidor é 
 * Processar comandos e mensagens do chat.
 * Fornecer dados para o Painel Administrativo e para os Overlays.
 
-### 📁 Servindo Arquivos (Static Assets)
+## 📁 Servindo Arquivos (Static Assets)
 
 Todas as imagens de cartas e pacotes que você sobe (`uploads`) são servidas diretamente pelo motor do Express. Elas ficam armazenadas na sua pasta de Documentos para garantir que, mesmo que você atualize o aplicativo, suas imagens nunca sejam perdidas.
 
